@@ -1,2 +1,2 @@
 Vendor,Device Family,Device Identity,Device Type,Firmware Availability,Source URL,Access Constraint,Notes,Status
-WAGO,PFC200,TBD,Industrial controller / PLC,TBD,TBD,TBD,Smoke-test candidate,To verify
+WAGO,PFC100/200 G2,PFC100/200,PLC / industrial controller / IIoT edge controller,Available,https://downloadcenter.wago.com/wago/software/details/molmiieuzlynr1bum5,"Public WAGO Download Center; JavaScript required; checksum shown","Smoke-test firmware: Firmware PFC100/200 4.9.1(31), 202.7 MB, released 2026-05-05",Verified candidate
