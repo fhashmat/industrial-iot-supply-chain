@@ -1,0 +1,2 @@
+Vendor,Device Family,Device Type,Firmware Package Identity,Source URL,Access Constraint,File Name,File Size,Release Date,Last Update Release Date,SHA256,Status
+WAGO,PFC100/200 G2,PLC / industrial controller / IIoT edge controller,Firmware PFC100/200 4.9.1(31),https://downloadcenter.wago.com/wago/software/details/molmiieuzlynr1bum5,Public WAGO Download Center,Firmware_PFC100_PFC200_040901_31.zip,202.7 MB,2026-05-05,2026-05-05,01e1329dc89cabe2985ca6c3c757952f2e75b8b86eb84d2f9fe505d6390cf939,Downloaded
