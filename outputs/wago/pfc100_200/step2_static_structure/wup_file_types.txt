@@ -1,0 +1,2 @@
+raw_firmware/wago/pfc100_200/unpacked/wup/package-info.xml:                                 XML 1.0 document text, ASCII text
+raw_firmware/wago/pfc100_200/unpacked/wup/PFC-G2-Linux_update_V040901_31_r9d0900aaed.raucb: Squashfs filesystem, little endian, version 4.0, zlib compressed, 101756087 bytes, 15 inodes, blocksize: 131072 bytes, created: Sun Dec  1 00:00:00 2024

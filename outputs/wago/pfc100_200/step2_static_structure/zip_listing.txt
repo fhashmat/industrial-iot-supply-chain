@@ -1,0 +1,7 @@
+Archive:  raw_firmware/wago/pfc100_200/Firmware_PFC100_PFC200_040901_31.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+287309824  04-30-2026 11:28   PFC-G2-Linux_sd_V040901_31_r9d0900aaed.img
+101767197  04-30-2026 11:28   PFC-G2-Linux_update_V040901_31_r9d0900aaed.wup
+---------                     -------
+389077021                     2 files

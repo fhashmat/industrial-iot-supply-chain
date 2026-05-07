@@ -1,0 +1,7 @@
+Archive:  raw_firmware/wago/pfc100_200/unpacked/PFC-G2-Linux_update_V040901_31_r9d0900aaed.wup
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     3110  04-29-2026 10:35   package-info.xml
+101759260  04-29-2026 10:35   PFC-G2-Linux_update_V040901_31_r9d0900aaed.raucb
+---------                     -------
+101762370                     2 files

@@ -1,0 +1,2 @@
+raw_firmware/wago/pfc100_200/rootfs/usr/lib/os-release
+raw_firmware/wago/pfc100_200/rootfs/etc/os-release

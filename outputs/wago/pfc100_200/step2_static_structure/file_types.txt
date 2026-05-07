@@ -1,0 +1,2 @@
+raw_firmware/wago/pfc100_200/unpacked/PFC-G2-Linux_sd_V040901_31_r9d0900aaed.img:     DOS/MBR boot sector; partition 1 : ID=0xc, active, start-CHS (0x1,5,5), end-CHS (0x3,15,12), startsector 16384, 32768 sectors; partition 2 : ID=0x83, start-CHS (0x3,15,13), end-CHS (0x22,237,11), startsector 49152, 512000 sectors
+raw_firmware/wago/pfc100_200/unpacked/PFC-G2-Linux_update_V040901_31_r9d0900aaed.wup: Zip archive data, at least v2.0 to extract, compression method=deflate

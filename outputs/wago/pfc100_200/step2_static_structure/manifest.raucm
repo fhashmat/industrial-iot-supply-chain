@@ -1,0 +1,26 @@
+[update]
+compatible=WAGO PFC
+version=PFC_2017
+description=Test Firmware
+build=2026-04-29T14:35:29+0000
+
+[hooks]
+filename=hooks.sh
+
+[image.rootfs]
+sha256=d246aed9e2dc00d7f96b8d73b853a63bfe0c3fa40293c247ced7dd203dfc2ec7
+size=101162770
+filename=root.tar.gz
+hooks=pre-install;post-install;
+
+[image.home]
+sha256=22a7fa975f042a173e602bde9150f74cd5572f657e2817d44ef186b4edce669b
+size=2352
+filename=hooks.sh
+hooks=install;
+
+[image.bootloader]
+sha256=025a9a2f750a253dcdde5304ad555668c4a8f9b576e554199aae7bf3fa40e445
+size=73
+filename=barebox-compatible-versions
+hooks=install;

@@ -1,0 +1,13 @@
+raw_firmware/wago/pfc100_200/unpacked/raucb/mlo.pfc200v3: data
+raw_firmware/wago/pfc100_200/unpacked/raucb/mlo.pfc100g2: data
+raw_firmware/wago/pfc100_200/unpacked/raucb/hooks.sh: Bourne-Again shell script text executable, ASCII text
+raw_firmware/wago/pfc100_200/unpacked/raucb/hooks/slot-rootfs-pre-install: Bourne-Again shell script text executable, ASCII text
+raw_firmware/wago/pfc100_200/unpacked/raucb/hooks/slot-bootloader-install: Bourne-Again shell script text executable, ASCII text
+raw_firmware/wago/pfc100_200/unpacked/raucb/hooks/slot-home-install: Bourne-Again shell script text executable, ASCII text
+raw_firmware/wago/pfc100_200/unpacked/raucb/hooks/slot-rootfs-post-install: Bourne-Again shell script text executable, ASCII text
+raw_firmware/wago/pfc100_200/unpacked/raucb/hooks/hooks_common: Bourne-Again shell script text executable, ASCII text
+raw_firmware/wago/pfc100_200/unpacked/raucb/manifest.raucm: ASCII text
+raw_firmware/wago/pfc100_200/unpacked/raucb/barebox.bin.pfc200v3: Tower/XP rel 3 object
+raw_firmware/wago/pfc100_200/unpacked/raucb/barebox-compatible-versions: ASCII text
+raw_firmware/wago/pfc100_200/unpacked/raucb/root.tar.gz: gzip compressed data, from Unix, original size modulo 2^32 183705600
+raw_firmware/wago/pfc100_200/unpacked/raucb/barebox.bin.pfc100g2: Tower/XP rel 3 object

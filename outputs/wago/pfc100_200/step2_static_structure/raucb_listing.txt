@@ -1,0 +1,15 @@
+drwxr-xr-x root/wheel              216 2024-11-30 19:00 squashfs-root
+-rw------- root/wheel               73 2024-11-30 19:00 squashfs-root/barebox-compatible-versions
+-rw-r--r-- root/wheel           521637 2024-11-30 19:00 squashfs-root/barebox.bin.pfc100g2
+-rw-r--r-- root/wheel           521861 2024-11-30 19:00 squashfs-root/barebox.bin.pfc200v3
+drwxr-xr-x root/wheel              154 2024-11-30 19:00 squashfs-root/hooks
+-rw-r--r-- root/wheel             1274 2024-11-30 19:00 squashfs-root/hooks/hooks_common
+-rwxr-xr-x root/wheel             2608 2024-11-30 19:00 squashfs-root/hooks/slot-bootloader-install
+-rw-r--r-- root/wheel             3514 2024-11-30 19:00 squashfs-root/hooks/slot-home-install
+-rwxr-xr-x root/wheel             5525 2024-11-30 19:00 squashfs-root/hooks/slot-rootfs-post-install
+-rwxr-xr-x root/wheel             4176 2024-11-30 19:00 squashfs-root/hooks/slot-rootfs-pre-install
+-rwxr-xr-x root/wheel             2352 2024-11-30 19:00 squashfs-root/hooks.sh
+-rw-r--r-- root/wheel              567 2024-11-30 19:00 squashfs-root/manifest.raucm
+-rw-r--r-- root/wheel           107088 2024-11-30 19:00 squashfs-root/mlo.pfc100g2
+-rw-r--r-- root/wheel           107088 2024-11-30 19:00 squashfs-root/mlo.pfc200v3
+-rw-r--r-- root/wheel        101162770 2024-11-30 19:00 squashfs-root/root.tar.gz

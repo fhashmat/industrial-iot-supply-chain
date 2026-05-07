@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Caution! Elements and attributes in this file are case sensitive! -->
+<FirmwareUpdateFile StructureVersion="1.0" Revision="1" System="PFC-Linux">
+  <FirmwareDescription Revision="4.9.1" ReleaseIndex="31">
+    <AssociatedFiles>
+      <File RefID="RAUC-File" Type="rauc" Name="PFC-G2-Linux_update_V040901_31_r9d0900aaed.raucb" TargetPath="/tmp/fwupdate/update_31_040901.raucb"/>
+    </AssociatedFiles>
+  </FirmwareDescription>
+  <ArticleList>
+    <Article OrderNo="0750-8110" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8111" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8112" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8112/0025-0000" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8210" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8210/0025-0000" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8210/0040-0000" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8210/0040-0001" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8211" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8211/0040-0000" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8211/0040-0001" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8212" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8212/0000-0100" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8212/0025-0000" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8212/0025-0001" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8212/0025-0002" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8212/0040-0000" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8212/0040-0001" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8212/0040-0010" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8213" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8213/0040-0010" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8214" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8215" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8215/K000-0001" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8216" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8216/0025-0000" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8216/0025-0001" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8216/0040-0000" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8216/K000-0001" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8217" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8217/0025-0000" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8217/K000-0002" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8217/K000-0006" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8217/0600-0000" GroupRef="PFC-Common"/>
+    <Article OrderNo="0750-8217/0625-0000" GroupRef="PFC-Common"/>
+  </ArticleList>
+  <GroupList>
+    <Group RefID="PFC-Common">
+      <Upgrade>
+        <VersionList>
+          <VersionRange SoftwareRevision="3.0.0-4.9.99"/>
+        </VersionList>
+      </Upgrade>
+      <Downgrade>
+        <VersionList>
+          <VersionRange SoftwareRevision="3.0.0-99.99.99"/>
+        </VersionList>
+      </Downgrade>
+    </Group>
+  </GroupList>
+</FirmwareUpdateFile>

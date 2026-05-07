@@ -1,0 +1,18 @@
+total 0
+drwxr-xr-x@  17 fhashmat  staff   544 May  7 00:19 .
+drwxr-xr-x@   5 fhashmat  staff   160 May  7 00:18 ..
+lrwxr-xr-x@   1 fhashmat  staff     7 Nov 30  2024 bin -> usr/bin
+drwxr-xr-x@  16 fhashmat  staff   512 Nov 30  2024 boot
+drwxr-xr-x@ 109 fhashmat  staff  3488 Nov 30  2024 etc
+drwxr-xr-x@   6 fhashmat  staff   192 Nov 30  2024 home
+lrwxr-xr-x@   1 fhashmat  staff     7 Nov 30  2024 lib -> usr/lib
+drwxr-xr-x@   2 fhashmat  staff    64 Nov 30  2024 media
+drwxr-xr-x@   2 fhashmat  staff    64 Nov 30  2024 mnt
+drwxr-xr-x@   3 fhashmat  staff    96 Nov 30  2024 opt
+drwx------@   3 fhashmat  staff    96 Nov 30  2024 root
+drwxr-xr-x@   3 fhashmat  staff    96 Nov 30  2024 run
+lrwxr-xr-x@   1 fhashmat  staff     8 Nov 30  2024 sbin -> usr/sbin
+drwxr-xr-x@   2 fhashmat  staff    64 Nov 30  2024 sys
+drwxr-xr-x@   2 fhashmat  staff    64 Nov 30  2024 tmp
+drwxr-xr-x@   8 fhashmat  staff   256 Nov 30  2024 usr
+drwxr-xr-x@  11 fhashmat  staff   352 Nov 30  2024 var

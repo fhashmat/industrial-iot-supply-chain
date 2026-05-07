@@ -1,0 +1,10 @@
+raw_firmware/wago/pfc100_200/rootfs/boot/am335x-pfc-750_8211.dtb
+raw_firmware/wago/pfc100_200/rootfs/boot/am335x-pfc-750_8210.dtb
+raw_firmware/wago/pfc100_200/rootfs/boot/am335x-pfc-750_8212.dtb
+raw_firmware/wago/pfc100_200/rootfs/boot/am335x-pfc-750_8213.dtb
+raw_firmware/wago/pfc100_200/rootfs/boot/am335x-pfc-750_8110_8111.dtb
+raw_firmware/wago/pfc100_200/rootfs/boot/am335x-pfc-750_8217.dtb
+raw_firmware/wago/pfc100_200/rootfs/boot/am335x-pfc-750_8216.dtb
+raw_firmware/wago/pfc100_200/rootfs/boot/am335x-pfc-750_8214.dtb
+raw_firmware/wago/pfc100_200/rootfs/boot/am335x-pfc-750_8215.dtb
+raw_firmware/wago/pfc100_200/rootfs/boot/am335x-pfc-750_8112.dtb

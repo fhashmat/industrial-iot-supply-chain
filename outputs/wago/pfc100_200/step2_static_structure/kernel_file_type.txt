@@ -1,0 +1,1 @@
+raw_firmware/wago/pfc100_200/rootfs/boot/linux: u-boot legacy uImage, Linux-6.6.94-rt56-w05.08.02, Linux/ARM, OS Kernel Image (Not compressed), 8213792 bytes, Sun Dec  1 00:00:00 2024, Load Address: 0XFFFFFFFF, Entry Point: 0XFFFFFFFF, Header CRC: 0X75C25A9E, Data CRC: 0X5F20E326
