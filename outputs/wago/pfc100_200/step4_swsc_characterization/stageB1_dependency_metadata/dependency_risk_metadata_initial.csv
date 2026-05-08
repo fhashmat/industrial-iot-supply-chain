@@ -1,6 +1,6 @@
 Tool,Version,BinaryPackage,SourcePackage,UpstreamProject,VersionOnly,LibraryCategory,Maintainer,LatestUpdate,LibraryEvidence,Status,Notes
 WAGO-PFC100-200,4.9.1(31),openssl,openssl,openssl,TBD,Crypto/Security,TBD,TBD,libcrypto.so.3 / libssl.so.3,NeedsVersion,Detected from Step 3 dependency evidence
-WAGO-PFC100-200,4.9.1(31),zlib,zlib,zlib,TBD,Compression,TBD,TBD,libz.so.1,NeedsVersion,Detected from Step 3 dependency evidence
+WAGO-PFC100-200,4.9.1(31),zlib,zlib,zlib,1.3.1,Compression,TBD,TBD,libz.so.1,VersionExtracted,Detected from Step 3 dependency evidence
 WAGO-PFC100-200,4.9.1(31),libxml2,libxml2,libxml2,TBD,Parsing,TBD,TBD,libxml2.so.2,NeedsVersion,Detected from Step 3 dependency evidence
 WAGO-PFC100-200,4.9.1(31),dbus,dbus,dbus,TBD,IPC/System Services,TBD,TBD,libdbus-1.so.3,NeedsVersion,Detected from Step 3 dependency evidence
 WAGO-PFC100-200,4.9.1(31),net-snmp,net-snmp,net-snmp,TBD,Networking/Management,TBD,TBD,libnetsnmp.so.40,NeedsVersion,Detected from Step 3 dependency evidence
