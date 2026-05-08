@@ -1,0 +1,19 @@
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libssl.so.3
+OPENSSL_3.0.0
+OPENSSL_3.2.0
+OPENSSL_3.0.3
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcrypto.so.3
+OpenSSL_version_num
+OPENSSL_version_major
+OPENSSL_version_minor
+OPENSSL_version_patch
+OPENSSL_version_pre_release
+OPENSSL_version_build_metadata
+OpenSSL_version
+OPENSSL_3.0.0
+OPENSSL_3.0.3
+OPENSSL_3.0.8
+OPENSSL_3.0.9
+OPENSSL_3.1.0
+OPENSSL_3.2.0
+OpenSSL 3.2.4 11 Feb 2025

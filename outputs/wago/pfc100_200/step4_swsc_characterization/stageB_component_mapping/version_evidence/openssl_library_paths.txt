@@ -1,0 +1,2 @@
+raw_firmware/wago/pfc100_200/rootfs/usr/lib/libssl.so.3
+raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcrypto.so.3
