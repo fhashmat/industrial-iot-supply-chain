@@ -1,0 +1,9 @@
+Component,Library Evidence,Category,Version Evidence,Likely Open Source,Notes
+OpenSSL,libcrypto.so.3 / libssl.so.3,Crypto/TLS,TBD,Yes,Detected from Step 3 NEEDED dependencies
+zlib,libz.so.1,Compression,TBD,Yes,Detected from Step 3 NEEDED dependencies
+libxml2,libxml2.so.2,Parsing/XML,TBD,Yes,Detected from Step 3 NEEDED dependencies
+D-Bus,libdbus-1.so.3,IPC/System Service,TBD,Yes,Detected from Step 3 NEEDED dependencies
+Net-SNMP,libnetsnmp.so.40,Networking/Management,TBD,Yes,Detected from Step 3 NEEDED dependencies
+iptables/xtables,libxtables.so.12,Networking/Firewall,TBD,Yes,Detected from Step 3 NEEDED dependencies
+GLib,libglib-2.0.so.0,System Utility Framework,TBD,Yes,Detected from Step 3 NEEDED dependencies
+WAGO DBus,libwago_dbus.so,Vendor-specific IPC,TBD,Unknown,WAGO-specific library

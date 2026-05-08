@@ -1,0 +1,2021 @@
+### raw_firmware/wago/pfc100_200/rootfs/usr/libexec/sudo/group_file.so
+ 0x00000001 (NEEDED)                     Shared library: [libmd.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [group_file.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/libexec/sudo/system_group.so
+ 0x00000001 (NEEDED)                     Shared library: [libmd.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [system_group.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/libexec/sudo/sudo_noexec.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [sudo_noexec.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libdbuskbuscommon.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libdbuskbuscommon.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscSysSqlite.so.1.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libsqlite3.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscSysSqlite.so.]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_RATEEST.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_TRACE.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_filesystem.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libboost_atomic.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_filesystem.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libIoDrvDps.so.0.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libIoDrvDal.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libIoDrvDps.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/liboms.so.0.3.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [liboms.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_arpreply.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libevent_pthreads-2.1.so.7.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libevent_pthreads-2.1.so.7]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnl-3.so.200.26.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnl-3.so.200]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_ip.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_log_setup.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libboost_log.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_thread.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_regex.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_chrono.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_filesystem.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_atomic.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_log_setup.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libexslt.so.0.8.24
+ 0x00000001 (NEEDED)                     Shared library: [libxslt.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libxml2.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libexslt.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libqmi-glib.so.5.10.0
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libqmi-glib.so.5]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libconfig.so.11.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libconfig.so.11]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscWagoSysUserGroupIecInterface.so.1.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscWagoSysUserGroupIecInterface.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libsparkplug_b.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscExtTask.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscExtTask.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscWagoStatusProvider.so.0.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscWagoStatusProvider.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libgpg-error.so.0.37.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libgpg-error.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libgthread-2.0.so.0.8200.2
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x0000000e (SONAME)                     Library soname: [libgthread-2.0.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_serialization.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_serialization.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_ipcomp.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libpcre2-8.so.0.13.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpcre2-8.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/liboslinux.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [liboslinux.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libCmpBlkDrvTcp.so.6.4.6.4
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libCmpBlkDrvTcp.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcom_err.so.2.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcom_err.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnl-nf-3.so.200.26.0
+ 0x00000001 (NEEDED)                     Shared library: [libnl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libnl-route-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnl-nf-3.so.200]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libmd.so.0.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libmd.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libfuse.so.2.9.9
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libfuse.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/liblibloader.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [liblibloader.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcpufreq.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcpufreq.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnetsnmphelpers.so.40.2.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnetsnmphelpers.so.40]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnl-genl-3.so.200.26.0
+ 0x00000001 (NEEDED)                     Shared library: [libnl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnl-genl-3.so.200]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_mark.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscSecure.so.2.1.2
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscSecure.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_cpu.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_ajp13.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_vhostdb.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_dirlisting.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_ssi.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_extforward.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_proxy.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_authn_file.so
+ 0x00000001 (NEEDED)                     Shared library: [libcrypt.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_status.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_accesslog.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_rrdtool.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_auth.so
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_deflate.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_webdav.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_cgi.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_openssl.so
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_h2.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_sockproxy.so
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_wstunnel.so
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/lighttpd/mod_userdir.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libModbusConfig.so.0.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libModbusConfig.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_srh.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libdbus-1.so.3.38.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libdbus-1.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_socket.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_NAT.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libgpiod.so.3.1.2
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libgpiod.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscIoBacnet.so.2.2.0
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libIoDrvDal.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscIoBacnet.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscSnmp.so.0.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libnetsnmp.so.40]
+ 0x00000001 (NEEDED)                     Shared library: [libwagosnmp.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscSnmp.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscModemIecInterface.so.1.1.2
+ 0x00000001 (NEEDED)                     Shared library: [libmdmd-ng.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libTscModemIecInterface.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnet.so.1.7.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnet.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libmosquitto.so.2.0.20
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libmosquitto.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libmount.so.1.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libblkid.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libmount.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_HMARK.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwagooptparsing.so.2.5.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libwagooptparsing.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_vlan.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libstdc++.so.6.0.29
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x0000000e (SONAME)                     Library soname: [libstdc++.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libfdisk.so.1.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libuuid.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libblkid.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libfdisk.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libgmodule-2.0.so.0.8200.2
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libgmodule-2.0.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcurl.so.4.8.0
+ 0x00000001 (NEEDED)                     Shared library: [libssh2.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libldap.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [liblber.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libz.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcurl.so.4]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/liblber.so.2.0.200
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [liblber.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_pkttype.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_ipv6header.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebtable_nat.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwagosnmp.so.0.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libnetsnmp.so.40]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libwagosnmp.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_nat.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libsqlite3.so.3.50.4
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libsqlite3.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libfuse3.so.3.16.2
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libfuse3.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_pkttype.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libCmpKbusAsyncCom.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpackbus.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libIoDrvDal.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libCmpKbusAsyncCom.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libjansson.so.4.14.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libjansson.so.4]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_string.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwretain_direct.so.1.2.0
+ 0x00000001 (NEEDED)                     Shared library: [libuio.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libwretain_direct.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libipt_ULOG.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libtls.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libstrongswan.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libtls.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/liblzma.so.5.8.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [liblzma.so.5]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libCommon++.so.23.09
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libCommon++.so.23.09]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_thread.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_thread.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libctcommon.so
+ 0x00000001 (NEEDED)                     Shared library: [libudev.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libipt_ttl.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libpam_misc.so.0.82.1
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpam_misc.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_AUDIT.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/security/pam_pwhistory.so
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypt.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [pam_pwhistory.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/security/pam_passwdqc.so
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypt.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libpasswdqc.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/security/pam_deny.so
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x0000000e (SONAME)                     Library soname: [pam_deny.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/security/pam_access.so
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [pam_access.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/security/pam_rootok.so
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [pam_rootok.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/security/pam_unix.so
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypt.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libnsl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libtirpc.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [pam_unix.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/security/pam_succeed_if.so
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [pam_succeed_if.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/security/pam_permit.so
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x0000000e (SONAME)                     Library soname: [pam_permit.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/security/pam_warn.so
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x0000000e (SONAME)                     Library soname: [pam_warn.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libstrongswan.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcgroup.so.1.0.41
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libcgroup.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_nfacct.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libfr.so.1.1.16
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libfr.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-stroke.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-stroke.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-mgf1.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-mgf1.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-pem.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-pem.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-random.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-random.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-revocation.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-revocation.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-nonce.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-nonce.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-attr.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-attr.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-gmp.so
+ 0x00000001 (NEEDED)                     Shared library: [libgmp.so.10]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-gmp.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-hmac.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-hmac.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-pubkey.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-pubkey.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-pkcs8.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-pkcs8.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-pgp.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-pgp.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-sha2.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-sha2.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-pkcs7.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-pkcs7.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-constraints.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-constraints.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-kernel-netlink.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-kernel-netlink.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-fips-prf.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-fips-prf.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-aes.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-aes.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-dnskey.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-dnskey.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-xauth-generic.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-xauth-generic.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-xcbc.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-xcbc.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-socket-default.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-socket-default.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-pkcs1.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-pkcs1.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-drbg.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-drbg.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-cmac.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-cmac.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-sha1.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-sha1.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-acert.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-acert.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-kdf.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-kdf.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-x509.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-x509.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-updown.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-updown.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-resolve.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-resolve.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-curl.so
+ 0x00000001 (NEEDED)                     Shared library: [libcurl.so.4]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-curl.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-gcm.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-gcm.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-af-alg.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-af-alg.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-des.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-des.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/plugins/libstrongswan-openssl.so
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstrongswan-openssl.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnetsnmpagent.so.40.2.1
+ 0x00000001 (NEEDED)                     Shared library: [libnetsnmp.so.40]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libpcre.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnetsnmpagent.so.40]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_ah.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnss_dns.so.2
+ 0x00000001 (NEEDED)                     Shared library: [libresolv.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnss_dns.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_LED.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_multiport.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_recent.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcanopens.so
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libcanopen.so]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcanopens.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_cluster.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libc.so.6
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_CONNSECMARK.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnftnl.so.11.6.0
+ 0x00000001 (NEEDED)                     Shared library: [libmnl.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnftnl.so.11]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebtc.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libebtc.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libsecret-storage.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libgmodule-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libsecret-storage.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libsocketcan.so.2.3.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libsocketcan.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcap.so.2.72
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcap.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscLED.so.0.0.3
+ 0x00000001 (NEEDED)                     Shared library: [libdiagnostic.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscLED.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_quota.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libusb-1.0.so.0.4.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libusb-1.0.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_DNPT.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libtypelabel.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libtypelabel.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libmbs.so.0.5.1
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdiagnostic.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libctcallhelper.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libz.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libgmodule-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [libModbus-0.9.20.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libModbusConfig.so]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libmbs.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libfl.so.2.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libfl.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libpamc.so.0.82.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpamc.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_TPROXY.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libncursesw.so.6.5
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libncursesw.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_helper.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_IDLETIMER.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libblkid.so.1.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libblkid.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscTime.so.0.0.6
+ 0x00000001 (NEEDED)                     Shared library: [libwagotime.so]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscTime.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libtirpc.so.3.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libtirpc.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libfcgi.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libfcgi.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libCmpBlkDrvCom.so.6.4.6.4
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libCmpBlkDrvCom.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libCmpXMLParser.so.6.4.6.4
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libCmpXMLParser.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_TEE.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libresolv.so.2
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libresolv.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_connbytes.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_bpf.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libz.so.1.3.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libz.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libfcgi++.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libfcgi.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x0000000e (SONAME)                     Library soname: [libfcgi++.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnetsnmptrapd.so.40.2.1
+ 0x00000001 (NEEDED)                     Shared library: [libnetsnmpmibs.so.40]
+ 0x00000001 (NEEDED)                     Shared library: [libnetsnmpagent.so.40]
+ 0x00000001 (NEEDED)                     Shared library: [libnetsnmp.so.40]
+ 0x00000001 (NEEDED)                     Shared library: [libnl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libpcre.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnetsnmptrapd.so.40]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libCmpCanConfig.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libIoDrvDal.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libCmpCanConfig.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_owner.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnss_files.so.2
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnss_files.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_limit.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/liblzo2.so.2.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [liblzo2.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/php8/opcache.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [opcache.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libpackbus.so.1.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libdiagnostic.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [libxml2.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpackbus.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libzip.so.5.4
+ 0x00000001 (NEEDED)                     Shared library: [libbz2.so.1.0]
+ 0x00000001 (NEEDED)                     Shared library: [liblzma.so.5]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libz.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libzip.so.5]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcap-ng.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libcap-ng.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_osf.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libipt_CLUSTERIP.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libPcap++.so.23.09
+ 0x00000001 (NEEDED)                     Shared library: [libPacket++.so.23.09]
+ 0x00000001 (NEEDED)                     Shared library: [libpcap.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libCommon++.so.23.09]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libPcap++.so.23.09]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libsnmpconfig.so.1.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libsnmpconfig.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_rt.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libipt_REJECT.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libuio.so.2.2.0
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libuio.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libevtlog-4.0.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libgmodule-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libevtlog-4.0.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libdbus-glib-1.so.2.3.2
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libdbus-glib-1.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_addrtype.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libIoDrvCanL2.so.1.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libIoDrvDal.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libIoDrvCanL2.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcds3sys.so
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcgroup.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x0000000e (SONAME)                     Library soname: [libcds3sys.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_u32.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_dccp.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/ld-linux-armhf.so.3
+ 0x0000000e (SONAME)                     Library soname: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libgcc_s.so.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libgcc_s.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwago_dbus.so
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libwago_dbus.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libModbus-0.9.20.so.1.0.19
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libModbus-0.9.20.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_physdev.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscSharedPointer.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscSharedPointer.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_statistic.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libe2p.so.2.3
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libe2p.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libarchive.so.13.7.9
+ 0x00000001 (NEEDED)                     Shared library: [libz.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libarchive.so.13]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscDpsLib.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libIoDrvDal.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscDpsLib.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libCmpWSServer.so.2.0.20
+ 0x00000001 (NEEDED)                     Shared library: [libuuid.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libCmpWSServer.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libseccomp.so.2.5.5
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libseccomp.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_eui64.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnetsnmp.so.40.2.1
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnetsnmp.so.40]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libipt_ah.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwagotime.so
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libwagotime.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_log.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_NETMAP.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_ipvs.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libctlog.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_LOG.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libledserver2.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libledserver2.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libbz2.so.1.0.4
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libbz2.so.1.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcharon.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libstrongswan.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcharon.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libkmod.so.2.5.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libkmod.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libmnl.so.0.2.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libmnl.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libmodbus.so.5.0.5
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libmodbus.so.5]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libulockmgr.so.1.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libulockmgr.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libbacnetconfig.so.3.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libcurl.so.4]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libxml2.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libbacnetconfig.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscSyncBootproject.so.1.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscSyncBootproject.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscSysProcessorLoad.so.0.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libcgroupcpuload.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscSysProcessorLoad.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libutil.so.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libutil.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_nflog.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libipt_ECN.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_esp.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscIoDrvKbus.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscIoDrvKbus.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscChCfgOnline.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscChCfgOnline.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_chrono.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_chrono.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_iprange.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebtable_broute.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libglib-2.0.so.0.8200.2
+ 0x00000001 (NEEDED)                     Shared library: [libpcre2-8.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libglib-2.0.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_CHECKSUM.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcanopenm.so
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libcanopen.so]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcanopenm.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_regex.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_regex.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libsysfs.so.2.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libsysfs.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscPamIecInterface.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libpam.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libpam_misc.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscPamIecInterface.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_standard.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libssh2.so.1.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libz.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libssh2.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_NFLOG.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscParamServ.so.0.2.0
+ 0x00000001 (NEEDED)                     Shared library: [libwdxlinuxoscom.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscParamServ.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_date_time.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_date_time.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libprogexec.so.2.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libprogexec.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscAsyncMgr.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscAsyncMgr.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_redirect.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libproc2.so.0.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libproc2.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libctnetwork.so
+ 0x00000001 (NEEDED)                     Shared library: [libxml2.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libnl-route-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libnl-genl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libnl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libxslt.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libnetconf.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_system.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_REJECT.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscLogBackendSyslog.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libdiagnostic.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscLogBackendSyslog.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscComSwitch.so.0.0.4
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscComSwitch.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_sctp.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libexpat.so.1.10.0
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libexpat.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcrypt.so.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcrypt.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libpcre.so.1.2.13
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpcre.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libgmp.so.10.5.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libgmp.so.10]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_log.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libboost_regex.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_thread.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_chrono.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_filesystem.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_atomic.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libboost_log.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libm.so.6
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libm.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libipt_NETMAP.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcds3-tscprocess.so.0.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libprogexec.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcds3-tscprocess.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libpthread.so.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpthread.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscDrm.so.1.7.0
+ 0x00000001 (NEEDED)                     Shared library: [libwagodrm.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscDrm.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libdiagxml.so
+ 0x00000001 (NEEDED)                     Shared library: [libxml2.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libdiagxml.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libffi.so.8.1.4
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libffi.so.8]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libIoDrvDal.so.1.0.2
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdal.so]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libIoDrvDal.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libSysUtil.so.2.0.16
+ 0x00000001 (NEEDED)                     Shared library: [libuuid.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libSysUtil.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip4tc.so.2.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libip4tc.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_hl.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libpcap.so.1.10.5
+ 0x00000001 (NEEDED)                     Shared library: [libnl-genl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libnl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libpcap.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_limit.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_policy.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwserial.so.0.2.4
+ 0x00000001 (NEEDED)                     Shared library: [libdiagnostic.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libwserial.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libssl.so.3
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libatomic.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libssl.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_SET.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_ecn.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxslt.so.1.1.43
+ 0x00000001 (NEEDED)                     Shared library: [libxml2.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libxslt.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxtables.so.12.7.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libxtables.so.12]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcrypto.so.3
+ 0x00000001 (NEEDED)                     Shared library: [libatomic.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcrypto.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_stp.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_connmark.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_among.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_802_3.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnl-route-3.so.200.26.0
+ 0x00000001 (NEEDED)                     Shared library: [libnl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnl-route-3.so.200]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libevent_extra-2.1.so.7.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libevent_extra-2.1.so.7]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_frag.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwebsockets.so.19
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcap.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libz.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libwebsockets.so.19]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscComExtra.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscComExtra.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_SNPT.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libreadline.so.8.2
+ 0x00000001 (NEEDED)                     Shared library: [libncursesw.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libreadline.so.8]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libevdev.so.2.3.0
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libevdev.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libuuid.so.1.3.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libuuid.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_rpfilter.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libevent-2.1.so.7.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libevent-2.1.so.7]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libIoDrvBacnet.so.1.5.0
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libIoDrvDal.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libIoDrvBacnet.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnl-xfrm-3.so.200.26.0
+ 0x00000001 (NEEDED)                     Shared library: [libnl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnl-xfrm-3.so.200]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_mh.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libconfigstp.so.1.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libconfigstp.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_mac.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_icmp6.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_atomic.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_atomic.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwagodrm.so.1.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libwagodrm.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_length.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libthread_db.so.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libthread_db.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libmosquittopp.so.2.0.20
+ 0x00000001 (NEEDED)                     Shared library: [libmosquitto.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libmosquittopp.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libldap.so.2.0.200
+ 0x00000001 (NEEDED)                     Shared library: [liblber.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libldap.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/librt.so.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [librt.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libgcrypt.so.20.5.0
+ 0x00000001 (NEEDED)                     Shared library: [libgpg-error.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libgcrypt.so.20]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_tcp.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libdl.so.2
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libdl.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwagocrypto.so.2.5.0
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libwagocrypto.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_SECMARK.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libctcallhelper.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libctcallhelper.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libIoDrvSerial.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libIoDrvSerial.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnss_hesiod.so.2
+ 0x00000001 (NEEDED)                     Shared library: [libresolv.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libnss_files.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnss_hesiod.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscRunLed.so.0.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscRunLed.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libmodem.so.0.6.4
+ 0x00000001 (NEEDED)                     Shared library: [libfr.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libqmi-glib.so.5]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libmodem.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscRetainUIO.so.0.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libwretain.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libuio.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscRetainUIO.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_conntrack.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libsyslog-ng-4.0.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgmodule-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libevtlog-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcap.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libpcre.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libsecret-storage.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libsyslog-ng-4.0.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libudev.so.0.13.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libudev.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscDrmIecInterface.so.0.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libwagodrm.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscDrmIecInterface.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libCmpBlkDrvUdp.so.6.4.6.4
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libCmpBlkDrvUdp.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libpam.so.0.85.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpam.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscPPCodesys3App.so.0.1.3
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscPPCodesys3App.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_cgroup.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libopkg.so.1.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libarchive.so.13]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libopkg.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libIoDrvCanM.so.1.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libIoDrvDal.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libIoDrvCanM.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_hashlimit.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_TCPMSS.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6tc.so.2.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libip6tc.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_locale.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_locale.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_devgroup.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_tos.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libafprog.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libafprog.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libafuser.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libafuser.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/loggen/libloggen_socket_plugin.so
+ 0x00000001 (NEEDED)                     Shared library: [libgmodule-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libloggen_helper-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libloggen_plugin-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libloggen_socket_plugin.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/loggen/libloggen_ssl_plugin.so
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgmodule-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libloggen_helper-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libloggen_plugin-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libloggen_ssl_plugin.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libgraphite.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libgraphite.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libsystem-source.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libsystem-source.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libtfgetent.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libtfgetent.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libsyslogformat.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libsyslogformat.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libsecure-logging.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libevtlog-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcap.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libpcre.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libsecret-storage.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgmodule-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libsecure-logging.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libtimestamp.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libtimestamp.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libstardate.so
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libstardate.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libazure-auth-header.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libazure-auth-header.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libappmodel.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libappmodel.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libhttp.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcurl.so.4]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libhttp.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libhook-commands.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libhook-commands.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/librate-limit-filter.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [librate-limit-filter.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/liblinux-kmsg-format.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [liblinux-kmsg-format.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libbasicfuncs.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libbasicfuncs.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libkvformat.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libkvformat.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libmap-value-pairs.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libmap-value-pairs.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libregexp-parser.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libregexp-parser.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libxml.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libxml.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libpseudofile.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpseudofile.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libaffile.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libaffile.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libcryptofuncs.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcryptofuncs.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libdisk-buffer.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libevtlog-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libcap.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libpcre.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libsecret-storage.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgmodule-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libdisk-buffer.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libafsocket.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libafsocket.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libcef.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcef.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libcsvparser.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcsvparser.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libdbparser.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libdbparser.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libtags-parser.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libtags-parser.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libadd-contextual-data.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libadd-contextual-data.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/syslog-ng/libconfgen.so
+ 0x00000001 (NEEDED)                     Shared library: [libsyslog-ng-4.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libconfgen.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_ip6.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcifXToolkit.so.1.2.0.0
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcifXToolkit.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_udp.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_system.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_system.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libswitchconfig.so.1.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libswitchconfig.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebtable_filter.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libipt_icmp.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libmdmd-ng.so.0.7.2
+ 0x00000001 (NEEDED)                     Shared library: [libboost_serialization.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_log.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libmdmd-ng.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcanopen.so.1.4
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libdiagnostic.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libsocketcan.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libprogexec.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcanopen.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libext2fs.so.2.4
+ 0x00000001 (NEEDED)                     Shared library: [libcom_err.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libext2fs.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/gconv/ISO8859-1.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/gconv/ISO8859-15.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libboost_program_options.so.1.83.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libboost_program_options.so.1.83.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_DSCP.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscOms.so.0.0.2
+ 0x00000001 (NEEDED)                     Shared library: [liboms.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscOms.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_hbh.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/pppd/2.4.9/pppoatm.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/pppd/2.4.9/minconn.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/pppd/2.4.9/radius.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/pppd/2.4.9/radattr.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/pppd/2.4.9/winbind.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/pppd/2.4.9/passwordfd.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/pppd/2.4.9/radrealms.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/pppd/2.4.9/rp-pppoe.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/pppd/2.4.9/passprompt.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libfdt.so.1.7.2
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libfdt.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libgobject-2.0.so.0.8200.2
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libgobject-2.0.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libIoDrvCanS.so.1.0.3
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libIoDrvDal.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libIoDrvCanS.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libIoDrvKbus.so.0.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [liboslinux.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdiagnostic.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libIoDrvDal.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libIoDrvKbus.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_arp.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_mark.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwdxlinuxoscom.so.2.0.9
+ 0x00000001 (NEEDED)                     Shared library: [libwtrace.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_system.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libwdxlinuxoscom.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libdps.so.trunk
+ 0x00000001 (NEEDED)                     Shared library: [libdiagnostic.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libtypelabel.so]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [libgio-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libz.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libgmodule-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgthread-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libdps.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_CT.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libwtrace.so.2.5.0
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libwtrace.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_NFQUEUE.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libdiagnostic.so
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x0000000e (SONAME)                     Library soname: [libdiagnostic.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libatomic.so.1.2.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libatomic.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnetsnmpmibs.so.40.2.1
+ 0x00000001 (NEEDED)                     Shared library: [libnetsnmpagent.so.40]
+ 0x00000001 (NEEDED)                     Shared library: [libnetsnmp.so.40]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libnl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libpcre.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnetsnmpmibs.so.40]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_time.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_CLASSIFY.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libPacket++.so.23.09
+ 0x00000001 (NEEDED)                     Shared library: [libCommon++.so.23.09]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libPacket++.so.23.09]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libbacnet.so.2.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [libctnetwork.so]
+ 0x00000001 (NEEDED)                     Shared library: [libxml2.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libbacnetconfig.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libwagodrm.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libctcallhelper.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libuuid.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libwebsockets.so.19]
+ 0x00000001 (NEEDED)                     Shared library: [libdiagnostic.so]
+ 0x00000001 (NEEDED)                     Shared library: [libwago_dbus.so]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-glib-1.so.2]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libsqlite3.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libssl.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libcrypto.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libbacnet.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_TCPOPTSTRIP.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_standard.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libsmartcols.so.1.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libsmartcols.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libdt-utils.so.6.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libudev.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libdt-utils.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnsl.so.3.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libtirpc.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libnsl.so.3]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libebt_mark_m.so
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libip6t_dst.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libdal.so.1.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libffi.so.8]
+ 0x00000001 (NEEDED)                     Shared library: [liblibloader.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libdal.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnl-idiag-3.so.200.26.0
+ 0x00000001 (NEEDED)                     Shared library: [libnl-3.so.200]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnl-idiag-3.so.200]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_comment.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libgio-2.0.so.0.8200.2
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgobject-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libgmodule-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libz.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libmount.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libgio-2.0.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libevent_core-2.1.so.7.0.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libevent_core-2.1.so.7]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libbsd.so.0.11.7
+ 0x00000001 (NEEDED)                     Shared library: [libmd.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libbsd.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxml2.so.2.13.8
+ 0x00000001 (NEEDED)                     Shared library: [libz.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [ld-linux-armhf.so.3]
+ 0x0000000e (SONAME)                     Library soname: [libxml2.so.2]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcgroupcpuload.so.0.0.2
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcgroupcpuload.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_connlimit.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libpopt.so.0.0.0
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpopt.so.0]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libnetconf.so.1.1.0
+ 0x00000001 (NEEDED)                     Shared library: [libboost_system.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libboost_filesystem.so.1.83.0]
+ 0x00000001 (NEEDED)                     Shared library: [libdbus-1.so.3]
+ 0x00000001 (NEEDED)                     Shared library: [libstdc++.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libgcc_s.so.1]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libnetconf.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libipt_realm.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libcanlayer2.so
+ 0x00000001 (NEEDED)                     Shared library: [libm.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libcanopen.so]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libcanlayer2.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libxt_SYNPROXY.so
+ 0x00000001 (NEEDED)                     Shared library: [libxtables.so.12]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libpasswdqc.so.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libpasswdqc.so.1]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscSysExt.so.0.3.1
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x0000000e (SONAME)                     Library soname: [libTscSysExt.so]
+### raw_firmware/wago/pfc100_200/rootfs/usr/lib/libTscCurl.so.0.0.4
+ 0x00000001 (NEEDED)                     Shared library: [libglib-2.0.so.0]
+ 0x00000001 (NEEDED)                     Shared library: [libc.so.6]
+ 0x00000001 (NEEDED)                     Shared library: [libcurl.so.4]
+ 0x0000000e (SONAME)                     Library soname: [libTscCurl.so]
