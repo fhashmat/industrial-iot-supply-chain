@@ -1,0 +1,5 @@
+Source: https://github.com/CVEProject/cvelistV5
+Local directory: cvelistV5/
+Used for: Step 4 SWSC Characterization / CVE mapping
+Commit hash: 211469451e40a35e4bce30162ab7dfef6e0c5c23
+Note: cvelistV5 is stored locally and ignored from GitHub because it is an external database dependency.
