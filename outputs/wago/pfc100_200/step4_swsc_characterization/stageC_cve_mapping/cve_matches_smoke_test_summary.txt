@@ -1,0 +1,19 @@
+CVE Mapping Smoke Test Summary
+===================================
+Total candidate CVE matches: 42
+
+Matches by component:
+- openssl: 31
+- libxml2: 8
+- zlib: 3
+
+CVSS score distribution:
+- N/A: 31
+- 2.9: 2
+- 7.5: 2
+- 9.1: 2
+- 4.6: 1
+- 4: 1
+- 2.5: 1
+- 7.8: 1
+- 5.6: 1
