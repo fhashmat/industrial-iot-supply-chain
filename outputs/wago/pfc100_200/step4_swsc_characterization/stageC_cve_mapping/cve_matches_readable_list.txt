@@ -1,0 +1,42 @@
+openssl | 3.2.4 | CVE-2026-2673 | CVSS: N/A | 2026-03-13 | OpenSSL TLS 1.3 server may choose unexpected key agreement group
+openssl | 3.2.4 | CVE-2026-31790 | CVSS: N/A | 2026-04-07 | Incorrect Failure Handling in RSA KEM RSASVE Encapsulation
+openssl | 3.2.4 | CVE-2026-31789 | CVSS: N/A | 2026-04-07 | Heap Buffer Overflow in Hexadecimal Conversion
+zlib | 1.3.1 | CVE-2026-27171 | CVSS: 2.9 | 2026-02-18 | 
+openssl | 3.2.4 | CVE-2026-22796 | CVSS: N/A | 2026-01-27 | ASN1_TYPE Type Confusion in the PKCS7_digest_from_attributes() function
+openssl | 3.2.4 | CVE-2026-22795 | CVSS: N/A | 2026-01-27 | Missing ASN1_TYPE validation in PKCS#12 parsing
+zlib | 1.3.1 | CVE-2026-22184 | CVSS: 4.6 | 2026-01-07 | zlib <= 1.3.1.2 untgz Global Buffer Overflow in TGZfname()
+openssl | 3.2.4 | CVE-2026-28390 | CVSS: N/A | 2026-04-07 | Possible NULL Dereference When Processing CMS KeyTransportRecipientInfo
+openssl | 3.2.4 | CVE-2026-28386 | CVSS: N/A | 2026-04-07 | Out-of-bounds Read in AES-CFB-128 on X86-64 with AVX-512 Support
+openssl | 3.2.4 | CVE-2026-28387 | CVSS: N/A | 2026-04-07 | Potential Use-after-free in DANE Client Code
+openssl | 3.2.4 | CVE-2026-28388 | CVSS: N/A | 2026-04-07 | NULL Pointer Dereference When Processing a Delta CRL
+openssl | 3.2.4 | CVE-2026-28389 | CVSS: N/A | 2026-04-07 | Possible NULL Dereference When Processing CMS KeyAgreeRecipientInfo
+zlib | 1.3.1 | CVE-2023-6992 | CVSS: 4 | 2024-01-04 | Memory corruption issues is Cloudflare zlib implementation
+openssl | 3.2.4 | CVE-2024-6119 | CVSS: N/A | 2024-09-03 | Possible denial of service in X.509 name checks
+openssl | 3.2.4 | CVE-2024-9143 | CVSS: N/A | 2024-10-16 | Low-level invalid GF(2^m) parameters lead to OOB memory access
+openssl | 3.2.4 | CVE-2024-13176 | CVSS: N/A | 2025-01-20 | Timing side-channel in ECDSA signature computation
+openssl | 3.2.4 | CVE-2024-12797 | CVSS: N/A | 2025-02-11 | RFC7250 handshakes with unauthenticated servers don't abort as expected
+openssl | 3.2.4 | CVE-2024-4741 | CVSS: N/A | 2024-11-13 | Use After Free with SSL_free_buffers
+openssl | 3.2.4 | CVE-2024-4603 | CVSS: N/A | 2024-05-16 | Excessive time spent checking DSA keys and parameters
+openssl | 3.2.4 | CVE-2024-5535 | CVSS: N/A | 2024-06-27 | SSL_select_next_proto buffer overread
+libxml2 | 2.13.8 | CVE-2025-6170 | CVSS: 2.5 | 2025-06-16 | Libxml2: stack buffer overflow in xmllint interactive shell command handling
+libxml2 | 2.13.8 | CVE-2025-6021 | CVSS: 7.5 | 2025-06-12 | Libxml2: integer overflow in xmlbuildqname() leads to stack buffer overflow in libxml2
+libxml2 | 2.13.8 | CVE-2025-7425 | CVSS: 7.8 | 2025-07-10 | Libxslt: libxml2: heap use-after-free in libxslt caused by atype corruption in xmlattrptr
+openssl | 3.2.4 | CVE-2025-11187 | CVSS: N/A | 2026-01-27 | Improper validation of PBMAC1 parameters in PKCS#12 MAC verification
+openssl | 3.2.4 | CVE-2025-15469 | CVSS: N/A | 2026-01-27 | 'openssl dgst' one-shot codepath silently truncates inputs >16MB
+openssl | 3.2.4 | CVE-2025-15468 | CVSS: N/A | 2026-01-27 | NULL dereference in SSL_CIPHER_find() function on unknown cipher ID
+openssl | 3.2.4 | CVE-2025-15467 | CVSS: N/A | 2026-01-27 | Stack buffer overflow in CMS (Auth)EnvelopedData parsing
+openssl | 3.2.4 | CVE-2025-9231 | CVSS: N/A | 2025-09-30 | Timing side-channel in SM2 algorithm on 64 bit ARM
+openssl | 3.2.4 | CVE-2025-9230 | CVSS: N/A | 2025-09-30 | Out-of-bounds read & write in RFC 3211 KEK Unwrap
+openssl | 3.2.4 | CVE-2025-9232 | CVSS: N/A | 2025-09-30 | Out-of-bounds read in HTTP client no_proxy handling
+openssl | 3.2.4 | CVE-2025-66199 | CVSS: N/A | 2026-01-27 | TLS 1.3 CompressedCertificate excessive memory allocation
+libxml2 | 2.13.8 | CVE-2025-32415 | CVSS: 2.9 | 2025-04-17 | 
+libxml2 | 2.13.8 | CVE-2025-32414 | CVSS: 5.6 | 2025-04-08 | 
+openssl | 3.2.4 | CVE-2025-68160 | CVSS: N/A | 2026-01-27 | Heap out-of-bounds write in BIO_f_linebuffer on short writes
+openssl | 3.2.4 | CVE-2025-4575 | CVSS: N/A | 2025-05-22 | The x509 application adds trusted use instead of rejected use
+libxml2 | 2.13.8 | CVE-2025-49794 | CVSS: 9.1 | 2025-06-16 | Libxml: heap use after free (uaf) leads to denial of service (dos)
+libxml2 | 2.13.8 | CVE-2025-49795 | CVSS: 7.5 | 2025-06-16 | Libxml: null pointer dereference leads to denial of service (dos)
+libxml2 | 2.13.8 | CVE-2025-49796 | CVSS: 9.1 | 2025-06-16 | Libxml: type confusion leads to denial of service (dos)
+openssl | 3.2.4 | CVE-2025-69420 | CVSS: N/A | 2026-01-27 | Missing ASN1_TYPE validation in TS_RESP_verify_response() function
+openssl | 3.2.4 | CVE-2025-69421 | CVSS: N/A | 2026-01-27 | NULL Pointer Dereference in PKCS12_item_decrypt_d2i_ex function
+openssl | 3.2.4 | CVE-2025-69418 | CVSS: N/A | 2026-01-27 | Unauthenticated/unencrypted trailing bytes with low-level OCB function calls
+openssl | 3.2.4 | CVE-2025-69419 | CVSS: N/A | 2026-01-27 | Out of bounds write in PKCS12_get_friendlyname() UTF-8 conversion
