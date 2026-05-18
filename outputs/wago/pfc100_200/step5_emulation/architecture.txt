@@ -1,0 +1,2 @@
+raw_firmware/wago/pfc100_200/rootfs/bin/sh: symbolic link to bash
+raw_firmware/wago/pfc100_200/rootfs/bin/busybox: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, BuildID[sha1]=7060d3cbb8ee85c1c50129af81bf5d8d0783be82, for GNU/Linux 3.2.0, stripped

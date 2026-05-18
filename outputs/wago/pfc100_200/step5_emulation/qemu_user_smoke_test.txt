@@ -1,0 +1,25 @@
+QEMU works
+NAME=PTXdist
+VERSION="2024.12.0"
+ID=ptxdist
+VERSION_ID="2024.12.0"
+PRETTY_NAME="PTXdist / WAGO-PFC"
+ANSI_COLOR="1;34"
+
+PTXDIST_VERSION="2024.12.0"
+PTXDIST_BSP_VENDOR="WAGO"
+PTXDIST_BSP_NAME="PFC"
+PTXDIST_BSP_VERSION="PFC-trunk"
+PTXDIST_PLATFORM_NAME="wago-pfcXXX"
+PTXDIST_PLATFORM_VERSION="-trunk"
+PTXDIST_BUILD_DATE="2026-04-29T14:22:45+0000"
+BusyBox v1.37.0 () multi-call binary.
+BusyBox is copyrighted by many authors between 1998-2015.
+Licensed under GPLv2. See source distribution for detailed
+copyright notices.
+
+Usage: busybox [function [arguments]...]
+   or: busybox --list
+   or: function [arguments]...
+
+	BusyBox is a multi-call binary that combines many common Unix

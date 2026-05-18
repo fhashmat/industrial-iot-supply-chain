@@ -1,0 +1,7 @@
+===== /usr/bin/rauc =====
+===== /usr/bin/ledserverd =====
+===== /usr/bin/netconfd =====
+===== /usr/bin/omsd =====
+===== /usr/bin/progexecd =====
+===== /usr/bin/logforward =====
+===== /usr/bin/iocheckd =====

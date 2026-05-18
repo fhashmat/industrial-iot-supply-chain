@@ -1,0 +1,66 @@
+===== /usr/bin/rauc --help =====
+Usage:
+  rauc [OPTION?] <COMMAND>
+
+Options:
+  -c, --conf=FILENAME     config file
+  --keyring=PEMFILE       keyring file
+  --mount=PATH            mount prefix
+  -d, --debug             enable debug output
+  --version               display version
+  -h, --help              display help and exit
+
+Command-specific help:
+  rauc <COMMAND> --help
+
+List of rauc bundle handling commands:
+  extract		Extract the bundle content
+  info			Show bundle information
+
+List of rauc target commands:
+  service		Start RAUC service
+  install		Install a bundle
+  status		Show status
+  mount			Mount a bundle
+  write-slot		Write image to slot and bypass all update logic
+
+Environment variables:
+  RAUC_KEY_PASSPHRASE Passphrase to use for accessing key files (signing only)
+  RAUC_PKCS11_MODULE  Library filename for PKCS#11 module (signing only)
+  RAUC_PKCS11_PIN     PIN to use for accessing PKCS#11 keys (signing only)
+===== /usr/bin/ledserverd --help =====
+/usr/bin/ledserverd(SigTerm+0x6c)[0x2bf88]
+/lib/libdbus-1.so.3(dbus_connection_get_data+0x8)[0x40a73f08]
+qemu: uncaught target signal 11 (Segmentation fault) - core dumped
+===== /usr/bin/netconfd --help =====
+Starting network configuration daemon... 
+/usr/bin/netconfd: WAGO network configuration service
+Usage:   -h, --help:             Print this help message.
+         -v, --version           Print program version
+Options:
+         -d, --daemon            Daemonize this program
+         -r, --rundir=<dir>      Run directory, default = /var/run/netconfd
+         -l, --loglevel=<level>  Level of logging, default = debug
+         -p, --pidfile=<name>    Name of pidfile, default = netconfd.pid
+                                 loglevel: error, warning, info, debug
+         --startup-ports-down    start the netconfd with all ethernet ports down
+===== /usr/bin/omsd --help =====
+scandir: Value too large for defined data type
+===== /usr/bin/progexecd --help =====
+progexecd: Daemon starting processes like the system() function
+Usage:   -h, --help:             Print this help message.
+         -v, --version           Print program version
+Options:
+         -d, --debug             Debug, do not daemonize
+         -r, --rundir=<dir>      Run directory, default = /var/run/progexecd
+         -p, --pidfile=<name>    Name of pidfile
+         -s, --socketname=<name> Name of socket
+===== /usr/bin/logforward --help =====
+
+* forward logmessages to syslog-ng *
+
+Usage: logforward
+
+===== /usr/bin/iocheckd --help =====
+Called signal Handler with 11
+qemu: uncaught target signal 11 (Segmentation fault) - core dumped

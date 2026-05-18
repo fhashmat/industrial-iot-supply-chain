@@ -1,0 +1,792 @@
+1143201 execve("/usr/sbin/chroot", ["chroot", "raw_firmware/wago/pfc100_200/roo"..., "/usr/bin/qemu-arm-static", "/usr/bin/rauc", "--help"], 0x7ffea9a70768 /* 17 vars */) = 0
+1143201 brk(NULL)                       = 0x581f98664000
+1143201 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7adfea1f4000
+1143201 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1143201 fstat(3, {st_mode=S_IFREG|0644, st_size=85347, ...}) = 0
+1143201 mmap(NULL, 85347, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7adfea1df000
+1143201 close(3)                        = 0
+1143201 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+1143201 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+1143201 fstat(3, {st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0
+1143201 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+1143201 mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7adfe9e00000
+1143201 mmap(0x7adfe9e28000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7adfe9e28000
+1143201 mmap(0x7adfe9fb0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7adfe9fb0000
+1143201 mmap(0x7adfe9fff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000) = 0x7adfe9fff000
+1143201 mmap(0x7adfea005000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7adfea005000
+1143201 close(3)                        = 0
+1143201 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7adfea1dc000
+1143201 arch_prctl(ARCH_SET_FS, 0x7adfea1dc740) = 0
+1143201 set_tid_address(0x7adfea1dca10) = 1143201
+1143201 set_robust_list(0x7adfea1dca20, 24) = 0
+1143201 rseq(0x7adfea1dd060, 0x20, 0, 0x53053053) = 0
+1143201 mprotect(0x7adfe9fff000, 16384, PROT_READ) = 0
+1143201 mprotect(0x581f968f7000, 4096, PROT_READ) = 0
+1143201 mprotect(0x7adfea22c000, 8192, PROT_READ) = 0
+1143201 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+1143201 munmap(0x7adfea1df000, 85347)   = 0
+1143201 getrandom("\x4a\x85\x61\xd0\x64\x3a\x07\xfd", 8, GRND_NONBLOCK) = 8
+1143201 brk(NULL)                       = 0x581f98664000
+1143201 brk(0x581f98685000)             = 0x581f98685000
+1143201 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1143201 fstat(3, {st_mode=S_IFREG|0644, st_size=14596880, ...}) = 0
+1143201 mmap(NULL, 14596880, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7adfe9000000
+1143201 close(3)                        = 0
+1143201 getcwd("/home/fabiha/industrial-iot-supply-chain", 1024) = 41
+1143201 readlink("/home/fabiha/industrial-iot-supply-chain/raw_firmware", 0x7ffe6eca0e50, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/home/fabiha/industrial-iot-supply-chain/raw_firmware/wago", 0x7ffe6eca0e50, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/home/fabiha/industrial-iot-supply-chain/raw_firmware/wago/pfc100_200", 0x7ffe6eca0e50, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/home/fabiha/industrial-iot-supply-chain/raw_firmware/wago/pfc100_200/rootfs", 0x7ffe6eca0e50, 1023) = -1 EINVAL (Invalid argument)
+1143201 chroot("raw_firmware/wago/pfc100_200/rootfs") = 0
+1143201 chdir("/")                      = 0
+1143201 execve("/usr/bin/qemu-arm-static", ["/usr/bin/qemu-arm-static", "/usr/bin/rauc", "--help"], 0x7ffe6eca1478 /* 17 vars */) = 0
+1143201 brk(NULL)                       = 0x555556982000
+1143201 brk(0x555556982e40)             = 0x555556982e40
+1143201 arch_prctl(ARCH_SET_FS, 0x5555569824c0) = 0
+1143201 set_tid_address(0x555556982790) = 1143201
+1143201 set_robust_list(0x5555569827a0, 24) = 0
+1143201 rseq(0x555556982de0, 0x20, 0, 0x53053053) = 0
+1143201 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+1143201 readlinkat(AT_FDCWD, "/proc/self/exe", 0x7ffd74e66600, 4096) = -1 ENOENT (No such file or directory)
+1143201 getrandom("\x7a\x0a\xb5\xca\x4c\x28\x7d\xaa", 8, GRND_NONBLOCK) = 8
+1143201 brk(NULL)                       = 0x555556982e40
+1143201 brk(0x5555569a3e40)             = 0x5555569a3e40
+1143201 brk(0x5555569a4000)             = 0x5555569a4000
+1143201 mprotect(0x7eecaadbb000, 135168, PROT_READ) = 0
+1143201 rt_sigprocmask(SIG_SETMASK, ~[ILL FPE SEGV RTMIN RT_1], [], 8) = 0
+1143201 rt_sigaction(SIGRT_1, {sa_handler=0x7eecaac872d0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_RESTART|SA_SIGINFO, sa_restorer=0x7eecaabfb200}, NULL, 8) = 0
+1143201 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+1143201 mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7eecaa000000
+1143201 mprotect(0x7eecaa001000, 8388608, PROT_READ|PROT_WRITE) = 0
+1143201 rt_sigprocmask(SIG_BLOCK, ~[], ~[ILL FPE KILL SEGV STOP RTMIN RT_1], 8) = 0
+1143201 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7eecaa800990, parent_tid=0x7eecaa800990, exit_signal=0, stack=0x7eecaa000000, stack_size=0x800200, tls=0x7eecaa8006c0} => {parent_tid=[1143202]}, 88) = 1143202
+1143201 rt_sigprocmask(SIG_SETMASK, ~[ILL FPE KILL SEGV STOP RTMIN RT_1], NULL, 8) = 0
+1143202 rseq(0x7eecaa800fe0, 0x20, 0, 0x53053053 <unfinished ...>
+1143201 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+1143202 <... rseq resumed>)             = 0
+1143201 <... rt_sigprocmask resumed>NULL, 8) = 0
+1143202 set_robust_list(0x7eecaa8009a0, 24) = 0
+1143202 rt_sigprocmask(SIG_SETMASK, ~[ILL FPE KILL SEGV STOP RTMIN RT_1], NULL, 8) = 0
+1143202 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+1143201 prlimit64(0, RLIMIT_STACK, NULL,  <unfinished ...>
+1143202 <... mmap resumed>)             = 0x7eeca2000000
+1143201 <... prlimit64 resumed>{rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+1143202 munmap(0x7eeca2000000, 33554432 <unfinished ...>
+1143201 uname( <unfinished ...>
+1143202 <... munmap resumed>)           = 0
+1143201 <... uname resumed>{sysname="Linux", nodename="fabiha-Precision-3660", ...}) = 0
+1143202 munmap(0x7eeca8000000, 33554432 <unfinished ...>
+1143201 openat(AT_FDCWD, "/usr/bin/rauc", O_RDONLY <unfinished ...>
+1143202 <... munmap resumed>)           = 0
+1143201 <... openat resumed>)           = 3
+1143202 mprotect(0x7eeca4000000, 135168, PROT_READ|PROT_WRITE <unfinished ...>
+1143201 readlink("/usr",  <unfinished ...>
+1143202 <... mprotect resumed>)         = 0
+1143201 <... readlink resumed>0x7ffd74e669b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/bin",  <unfinished ...>
+1143202 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+1143201 <... readlink resumed>0x7ffd74e669b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/bin/rauc", 0x7ffd74e669b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 lseek(3, 0, SEEK_SET)           = 0
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\2\0(\0\1\0\0\0\34\240\1\0004\0\0\0"..., 52) = 52
+1143201 lseek(3, 0, SEEK_SET)           = 0
+1143201 mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7eecaae3d000
+1143201 sysinfo({uptime=22036777, loads=[59904, 47648, 31168], totalram=33325223936, freeram=479125504, sharedram=1029111808, bufferram=1751187456, totalswap=8589930496, freeswap=7695667200, procs=1423, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+1143201 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7eec9c000000
+1143201 madvise(0x7eec9c000000, 134217728, MADV_HUGEPAGE) = 0
+1143201 mprotect(0x7eec9c000000, 134213632, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+1143201 brk(0x5555569cc000)             = 0x5555569cc000
+1143201 brk(0x5555569ed000)             = 0x5555569ed000
+1143201 getrandom(NULL, 0, 0)           = 0
+1143201 openat(AT_FDCWD, "/proc/sys/vm/mmap_min_addr", O_RDONLY) = -1 ENOENT (No such file or directory)
+1143201 gettid()                        = 1143201
+1143201 fstat(3, {st_mode=S_IFREG|0755, st_size=304132, ...}) = 0
+1143201 geteuid()                       = 0
+1143201 getegid()                       = 0
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\2\0(\0\1\0\0\0\34\240\1\0004\0\0\0"..., 1024) = 1024
+1143201 mmap(0x1000, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE|MAP_FIXED_NOREPLACE, -1, 0) = 0x1000
+1143201 mmap(0xffff0000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffff0000
+1143201 mprotect(0xffff0000, 4096, PROT_READ) = 0
+1143201 mmap(0x10000, 372736, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x10000
+1143201 mmap(0x10000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x10000
+1143201 mmap(0x68000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x48000) = 0x68000
+1143201 mmap(0x6a000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x6a000
+1143201 pread64(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1120, 303012) = 1120
+1143201 close(3)                        = 0
+1143201 mmap(0x40000000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40000000
+1143201 mprotect(0x40000000, 4096, PROT_NONE) = 0
+1143201 access("/usr/gnemul/qemu-arm/lib/ld-linux-armhf.so.3", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/ld-linux-armhf.so.3", O_RDONLY) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\200\223\1\0004\0\0\0"..., 1024) = 1024
+1143201 mmap(0x40801000, 307200, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40801000
+1143201 mmap(0x40801000, 61440, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40801000
+1143201 mmap(0x4084b000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4084b000
+1143201 mmap(0x40810000, 167936, PROT_READ, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x40810000
+1143201 mmap(0x40848000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x28000) = 0x40848000
+1143201 pread64(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 880, 174712) = 880
+1143201 close(3)                        = 0
+1143201 mmap(0x4084b000, 69632, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4084b000
+1143201 mmap(0x4084b000, 20480, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4084b000
+1143201 mmap(0x40851000, 45056, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40851000
+1143201 mmap(0x40850000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40850000
+1143201 mprotect(0x40850000, 4096, PROT_READ|PROT_WRITE) = 0
+1143201 close(-1)                       = -1 EBADF (Bad file descriptor)
+1143201 mprotect(0x40850000, 4096, PROT_READ) = 0
+1143201 getrandom("\x78\xa2\x23\x1c\xbc\x2d\xfa\xfc\xaf\x56\x22\x36\x1b\x24\x0b\xbe", 16, 0) = 16
+1143201 getuid()                        = 0
+1143201 geteuid()                       = 0
+1143201 getgid()                        = 0
+1143201 getegid()                       = 0
+1143201 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1143201 rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGQUIT, {sa_handler=0x7eecaab16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7eecaabfb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGILL, {sa_handler=0x7eecaab16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7eecaabfb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGTRAP, {sa_handler=0x7eecaab16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7eecaabfb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_2, {sa_handler=0x7eecaab16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7eecaabfb200}, NULL, 8) = 0
+1143201 rt_sigaction(SIGBUS, {sa_handler=0x7eecaab16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7eecaabfb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGFPE, {sa_handler=0x7eecaab16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7eecaabfb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGKILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGSEGV, {sa_handler=0x7eecaab16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7eecaabfb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGSTOP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 brk(0x555556a11000)             = 0x555556a11000
+1143202 <... clock_nanosleep resumed>0x7eecaa800020) = 0
+1143202 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 mmap(0x40801000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40801000
+1143201 uname({sysname="Linux", nodename="fabiha-Precision-3660", ...}) = 0
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 access("/usr/gnemul/qemu-arm/etc/ld.so.preload", F_OK) = -1 ENOENT (No such file or directory)
+1143201 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+1143202 <... clock_nanosleep resumed>0x7eecaa800020) = 0
+1143201 <... futex resumed>)            = 0
+1143202 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+1143201 readlink("/etc", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/etc/ld.so.cache", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/etc/ld.so.cache", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/tls", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/tls/v8l/neon/vfp/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/tls/v8l/neon/vfp/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/tls/v8l/neon/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/tls", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/tls/v8l/neon/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/tls/v8l/neon/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/tls/v8l/neon", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/tls", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/tls/v8l/vfp/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/tls/v8l/vfp/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/tls/v8l/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/tls", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/tls/v8l/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/tls/v8l/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/tls/v8l", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/tls", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/tls/neon/vfp/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/tls/neon/vfp/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/tls/neon/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/tls", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/tls/neon/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/tls/neon/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/tls/neon", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/tls", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/tls/vfp/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/tls/vfp/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/tls/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/tls", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/tls/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/tls/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/tls", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/v8l", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/v8l/neon/vfp/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/v8l/neon/vfp/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/v8l/neon/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/v8l", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/v8l/neon/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/v8l/neon/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/v8l/neon", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/v8l", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/v8l/vfp/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/v8l/vfp/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/v8l/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/v8l", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/v8l/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/v8l/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/v8l", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/neon", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/neon/vfp/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/neon/vfp/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/neon/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/neon", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/neon/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/neon/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/neon", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/vfp", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/lib/vfp/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/vfp/libcurl.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 statx(AT_FDCWD, "/lib/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffd74e66b20) = -1 ENOENT (No such file or directory)
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libcurl.so.4", "libcurl.so.4.8.0", 1023) = 16
+1143201 readlink("/usr/lib/libcurl.so.4.8.0", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libcurl.so.4", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libcurl.so.4", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=501016, ...}) = 0
+1143201 mmap(0x40851000, 634880, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40851000
+1143201 mmap(0x40860000, 569344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x40860000
+1143201 mmap(0x40851000, 61440, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40851000
+1143201 mmap(0x408eb000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x408eb000
+1143201 mprotect(0x408d7000, 65536, PROT_NONE) = 0
+1143201 mmap(0x408e7000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x77000) = 0x408e7000
+1143201 mmap(0x408ea000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x408ea000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libglib-2.0.so.0", "libglib-2.0.so.0.8200.2", 1023) = 23
+1143201 readlink("/usr/lib/libglib-2.0.so.0.8200.2", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libglib-2.0.so.0", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1199352, ...}) = 0
+1143201 mmap(0x408eb000, 1331200, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x408eb000
+1143201 mmap(0x408f0000, 1265664, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x408f0000
+1143201 mmap(0x408eb000, 20480, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x408eb000
+1143201 mmap(0x40a25000, 45056, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40a25000
+1143201 mprotect(0x40a14000, 61440, PROT_NONE) = 0
+1143201 mmap(0x40a23000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x123000) = 0x40a23000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libgio-2.0.so.0", "libgio-2.0.so.0.8200.2", 1023) = 22
+1143201 readlink("/usr/lib/libgio-2.0.so.0.8200.2", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libgio-2.0.so.0", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libgio-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1636812, ...}) = 0
+1143201 mmap(0x40a25000, 1773568, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40a25000
+1143201 mmap(0x40a30000, 1708032, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x40a30000
+1143201 mmap(0x40a25000, 45056, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40a25000
+1143201 mmap(0x40bd1000, 20480, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40bd1000
+1143201 mprotect(0x40bbb000, 65536, PROT_NONE) = 0
+1143201 mmap(0x40bcb000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18b000) = 0x40bcb000
+1143201 mmap(0x40bd0000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40bd0000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libgobject-2.0.so.0", "libgobject-2.0.so.0.8200.2", 1023) = 26
+1143201 readlink("/usr/lib/libgobject-2.0.so.0.8200.2", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libgobject-2.0.so.0", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libgobject-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=335196, ...}) = 0
+1143201 mmap(0x40bd1000, 466944, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40bd1000
+1143201 mmap(0x40be0000, 401408, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x40be0000
+1143201 mmap(0x40bd1000, 61440, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40bd1000
+1143201 mmap(0x40c42000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40c42000
+1143201 mprotect(0x40c30000, 65536, PROT_NONE) = 0
+1143201 mmap(0x40c40000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x50000) = 0x40c40000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libcrypto.so.3", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libcrypto.so.3", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3427796, ...}) = 0
+1143201 mmap(0x40c42000, 3567616, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40c42000
+1143201 mmap(0x40c50000, 3502080, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x40c50000
+1143201 mmap(0x40c42000, 57344, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40c42000
+1143201 mmap(0x40fa7000, 8192, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40fa7000
+1143201 mprotect(0x40f65000, 61440, PROT_NONE) = 0
+1143201 mmap(0x40f74000, 200704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x314000) = 0x40f74000
+1143201 mmap(0x40fa5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40fa5000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libc.so.6", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libc.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0,\333\1\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=1434296, ...}) = 0
+1143201 mmap(0x40fa7000, 1601536, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40fa7000
+1143201 mmap(0x40fb0000, 1536000, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x40fb0000
+1143201 mmap(0x40fa7000, 36864, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40fa7000
+1143201 mmap(0x41127000, 28672, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41127000
+1143201 mprotect(0x4110a000, 65536, PROT_NONE) = 0
+1143201 mmap(0x4111a000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15a000) = 0x4111a000
+1143201 mmap(0x4111d000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x4111d000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libssh2.so.1", "libssh2.so.1.0.1", 1023) = 16
+1143201 readlink("/usr/lib/libssh2.so.1.0.1", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libssh2.so.1", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libssh2.so.1", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=346396, ...}) = 0
+1143201 mmap(0x41127000, 479232, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x41127000
+1143201 mmap(0x41130000, 413696, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x41130000
+1143201 mmap(0x41127000, 36864, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41127000
+1143201 mmap(0x41195000, 28672, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41195000
+1143201 mprotect(0x41183000, 65536, PROT_NONE) = 0
+1143201 mmap(0x41193000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x53000) = 0x41193000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libssl.so.3", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libssl.so.3", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libssl.so.3", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=785844, ...}) = 0
+1143201 mmap(0x41195000, 917504, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x41195000
+1143201 mmap(0x411a0000, 851968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x411a0000
+1143201 mmap(0x41195000, 45056, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41195000
+1143201 mmap(0x41270000, 20480, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41270000
+1143201 mprotect(0x41257000, 61440, PROT_NONE) = 0
+1143201 mmap(0x41266000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb6000 <unfinished ...>
+1143202 <... clock_nanosleep resumed>0x7eecaa800020) = 0
+1143201 <... mmap resumed>)             = 0x41266000
+1143201 close(3 <unfinished ...>
+1143202 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+1143201 <... close resumed>)            = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libldap.so.2", "libldap.so.2.0.200", 1023) = 18
+1143201 readlink("/usr/lib/libldap.so.2.0.200", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libldap.so.2", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libldap.so.2", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=254312, ...}) = 0
+1143201 mmap(0x41270000, 389120, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x41270000
+1143201 mmap(0x41270000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x41270000
+1143201 mmap(0x412bf000, 65536, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x412bf000
+1143201 mprotect(0x412ad000, 61440, PROT_NONE) = 0
+1143201 mmap(0x412bc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3c000) = 0x412bc000
+1143201 mmap(0x412be000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x412be000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/liblber.so.2", "liblber.so.2.0.200", 1023) = 18
+1143201 readlink("/usr/lib/liblber.so.2.0.200", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/liblber.so.2", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/liblber.so.2", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=34596, ...}) = 0
+1143201 mmap(0x412bf000, 167936, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x412bf000
+1143201 mmap(0x412c0000, 102400, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x412c0000
+1143201 mmap(0x412bf000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x412bf000
+1143201 mmap(0x412d9000, 61440, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x412d9000
+1143201 mprotect(0x412c8000, 61440, PROT_NONE) = 0
+1143201 mmap(0x412d7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x412d7000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libz.so.1", "libz.so.1.3.1", 1023) = 13
+1143201 readlink("/usr/lib/libz.so.1.3.1", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libz.so.1", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=95816, ...}) = 0
+1143201 mmap(0x40803000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40803000
+1143201 mmap(0x412d9000, 229376, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x412d9000
+1143201 mmap(0x412e0000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x412e0000
+1143201 mmap(0x412d9000, 28672, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x412d9000
+1143201 mmap(0x41308000, 36864, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41308000
+1143201 mprotect(0x412f7000, 61440, PROT_NONE) = 0
+1143201 mmap(0x41306000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x41306000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libpcre2-8.so.0", "libpcre2-8.so.0.13.0", 1023) = 20
+1143201 readlink("/usr/lib/libpcre2-8.so.0.13.0", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libpcre2-8.so.0", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=374256, ...}) = 0
+1143201 mmap(0x41308000, 507904, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x41308000
+1143201 mmap(0x41310000, 442368, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x41310000
+1143201 mmap(0x41308000, 32768, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41308000
+1143201 mmap(0x4137c000, 32768, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4137c000
+1143201 mprotect(0x4136b000, 61440, PROT_NONE) = 0
+1143201 mmap(0x4137a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5a000) = 0x4137a000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libgmodule-2.0.so.0", "libgmodule-2.0.so.0.8200.2", 1023) = 26
+1143201 readlink("/usr/lib/libgmodule-2.0.so.0.8200.2", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libgmodule-2.0.so.0", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libgmodule-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=13724, ...}) = 0
+1143201 mmap(0x4137c000, 147456, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x4137c000
+1143201 mmap(0x41380000, 81920, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x41380000
+1143201 mmap(0x4137c000, 16384, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4137c000
+1143201 mmap(0x41394000, 49152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41394000
+1143201 mprotect(0x41383000, 61440, PROT_NONE) = 0
+1143201 mmap(0x41392000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x41392000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libmount.so.1", "libmount.so.1.1.0", 1023) = 17
+1143201 readlink("/usr/lib/libmount.so.1.1.0", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libmount.so.1", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libmount.so.1", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=306360, ...}) = 0
+1143201 mmap(0x41394000, 438272, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x41394000
+1143201 mmap(0x413a0000, 372736, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x413a0000
+1143201 mmap(0x41394000, 49152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41394000
+1143201 mmap(0x413fb000, 16384, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x413fb000
+1143201 mprotect(0x413ea000, 61440, PROT_NONE) = 0
+1143201 mmap(0x413f9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x49000) = 0x413f9000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libffi.so.8", "libffi.so.8.1.4", 1023) = 15
+1143201 readlink("/usr/lib/libffi.so.8.1.4", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libffi.so.8", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libffi.so.8", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=46764, ...}) = 0
+1143201 mmap(0x413fb000, 180224, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x413fb000
+1143201 mmap(0x41400000, 114688, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x41400000
+1143201 mmap(0x413fb000, 20480, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x413fb000
+1143201 mmap(0x4141c000, 45056, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4141c000
+1143201 mprotect(0x4140b000, 61440, PROT_NONE) = 0
+1143201 mmap(0x4141a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x4141a000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libatomic.so.1", "libatomic.so.1.2.0", 1023) = 18
+1143201 readlink("/usr/lib/libatomic.so.1.2.0", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libatomic.so.1", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libatomic.so.1", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=30064, ...}) = 0
+1143201 mmap(0x4141c000, 167936, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x4141c000
+1143201 mmap(0x41420000, 102400, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x41420000
+1143201 mmap(0x4141c000, 16384, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4141c000
+1143201 mmap(0x41439000, 49152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41439000
+1143201 mprotect(0x41427000, 61440, PROT_NONE) = 0
+1143201 mmap(0x41436000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x41436000
+1143201 mmap(0x41438000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x41438000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libblkid.so.1", "libblkid.so.1.1.0", 1023) = 17
+1143201 readlink("/usr/lib/libblkid.so.1.1.0", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libblkid.so.1", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libblkid.so.1", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=240272, ...}) = 0
+1143201 mmap(0x41439000, 372736, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x41439000
+1143201 mmap(0x41440000, 307200, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x41440000
+1143201 mmap(0x41439000, 28672, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x41439000
+1143201 mmap(0x4148b000, 36864, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4148b000
+1143201 mprotect(0x41477000, 65536, PROT_NONE) = 0
+1143201 mmap(0x41487000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x37000) = 0x41487000
+1143201 close(3)                        = 0
+1143201 readlink("/lib", "usr/lib", 1023) = 7
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/libgcc_s.so.1", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/lib/libgcc_s.so.1", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+1143201 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=124452, ...}) = 0
+1143201 mmap(0x4148b000, 258048, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x4148b000
+1143201 mmap(0x41490000, 192512, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x41490000
+1143201 mmap(0x4148b000, 20480, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4148b000
+1143201 mmap(0x414bf000, 45056, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x414bf000
+1143201 mprotect(0x414ae000, 61440, PROT_NONE) = 0
+1143201 mmap(0x414bd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x414bd000
+1143201 close(3)                        = 0
+1143201 mmap(0x40805000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40805000
+1143201 brk(0x555556a32000)             = 0x555556a32000
+1143201 gettid()                        = 1143201
+1143201 mprotect(0x4111a000, 8192, PROT_READ) = 0
+1143201 mprotect(0x414bd000, 4096, PROT_READ) = 0
+1143201 mprotect(0x41487000, 12288, PROT_READ) = 0
+1143201 mprotect(0x41436000, 4096, PROT_READ) = 0
+1143201 mprotect(0x4141a000, 4096, PROT_READ) = 0
+1143201 mprotect(0x413f9000, 4096, PROT_READ) = 0
+1143201 mprotect(0x4137a000, 4096, PROT_READ) = 0
+1143201 mprotect(0x40a23000, 4096, PROT_READ) = 0
+1143201 mprotect(0x41392000, 4096, PROT_READ) = 0
+1143201 mprotect(0x41306000, 4096, PROT_READ) = 0
+1143201 mprotect(0x412d7000, 4096, PROT_READ) = 0
+1143201 mprotect(0x40f74000, 192512, PROT_READ) = 0
+1143201 mprotect(0x41266000, 24576, PROT_READ) = 0
+1143201 mprotect(0x412bc000, 4096, PROT_READ) = 0
+1143201 mprotect(0x41193000, 4096, PROT_READ) = 0
+1143201 mprotect(0x40c40000, 4096, PROT_READ) = 0
+1143201 mprotect(0x40bcb000, 12288, PROT_READ) = 0
+1143201 mprotect(0x408e7000, 4096, PROT_READ) = 0
+1143201 mprotect(0x68000, 4096, PROT_READ) = 0
+1143201 mprotect(0x40848000, 8192, PROT_READ) = 0
+1143201 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+1143201 getrandom("\xe4\x09\x72\x4a", 4, GRND_NONBLOCK) = 4
+1143201 mmap(0x6b000, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x6b000
+1143202 <... clock_nanosleep resumed>0x7eecaa800020) = 0
+1143202 futex(0x7eecaae0a540, FUTEX_WAIT, 4294967295, NULL <unfinished ...>
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 futex(0x7eecaae0a540, FUTEX_WAKE, 2147483647) = 1
+1143201 futex(0x40a24e14, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+1143202 <... futex resumed>)            = 0
+1143201 <... futex resumed>)            = 0
+1143202 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+1143201 futex(0x40a24e14, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 futex(0x7eecaae15998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale/locale-archive", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/locale/locale-archive", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3376400, ...}) = 0
+1143201 mmap(0x414bf000, 2097152, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x414bf000
+1143201 mmap(0x414bf000, 2097152, PROT_READ, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x414bf000
+1143201 close(3)                        = 0
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/share", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/share/locale", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/share/locale/locale.alias", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/usr/share/locale/locale.alias", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2998, ...}) = 0
+1143201 read(3, "# Locale name alias data base.\n#"..., 4096) = 2998
+1143201 read(3, "", 4096)               = 0
+1143201 close(3)                        = 0
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale/en_US.UTF-8", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale/en_US.utf8", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale/en_US", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/locale/en_US/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/locale/en_US/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale/en.UTF-8", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale/en.utf8", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/locale/en.utf8/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/locale/en.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/locale/en", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/locale/en/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/locale/en/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1143201 brk(0x555556a53000)             = 0x555556a53000
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/charset.alias", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/charset.alias", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/charset.alias", O_RDONLY) = -1 ENOENT (No such file or directory)
+1143201 futex(0x40a24e14, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 futex(0x40a24e14, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/gconv", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/gconv/gconv-modules.cache", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/gconv/gconv-modules.cache", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/gconv/gconv-modules.cache", O_RDONLY) = -1 ENOENT (No such file or directory)
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/gconv", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/gconv/gconv-modules", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/gconv/gconv-modules", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/gconv/gconv-modules", O_RDONLY|O_CLOEXEC) = 3
+1143201 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3808, ...}) = 0
+1143201 read(3, "# GNU libc iconv configuration.\n"..., 4096) = 3808
+1143202 <... clock_nanosleep resumed>0x7eecaa800020) = 0
+1143201 futex(0x7eecaae094e0, FUTEX_WAIT_PRIVATE, 2, NULL <unfinished ...>
+1143202 futex(0x7eecaae094e0, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+1143201 <... futex resumed>)            = -1 EAGAIN (Resource temporarily unavailable)
+1143202 <... futex resumed>)            = 0
+1143201 futex(0x7eecaae094e0, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+1143202 futex(0x7eecaae0bfb0, FUTEX_WAIT, 4294967295, NULL <unfinished ...>
+1143201 <... futex resumed>)            = 0
+1143201 read(3, "", 4096)               = 0
+1143201 close(3)                        = 0
+1143201 readlink("/usr", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/gconv", 0x7ffd74e654b0, 1023) = -1 EINVAL (Invalid argument)
+1143201 readlink("/usr/lib/gconv/gconv-modules.d", 0x7ffd74e654b0, 1023) = -1 ENOENT (No such file or directory)
+1143201 access("/usr/gnemul/qemu-arm/usr/lib/gconv/gconv-modules.d", F_OK) = -1 ENOENT (No such file or directory)
+1143201 openat(AT_FDCWD, "/usr/lib/gconv/gconv-modules.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+1143201 futex(0x4111ced8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1143201 statx(1, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFCHR|0620, stx_size=0, ...}) = 0
+1143201 write(1, "Usage:\n", 7)         = 7
+1143201 write(1, "  rauc [OPTION?] <COMMAND>\n", 27) = 27
+1143201 write(1, "\n", 1)               = 1
+1143201 write(1, "Options:\n", 9)       = 9
+1143201 write(1, "  -c, --conf=FILENAME     config"..., 38) = 38
+1143201 write(1, "  --keyring=PEMFILE       keyrin"..., 39) = 39
+1143201 write(1, "  --mount=PATH            mount "..., 39) = 39
+1143201 write(1, "  -d, --debug             enable"..., 46) = 46
+1143201 write(1, "  --version               displa"..., 42) = 42
+1143201 write(1, "  -h, --help              displa"..., 48) = 48
+1143201 write(1, "\n", 1)               = 1
+1143201 write(1, "Command-specific help:\n", 23) = 23
+1143201 write(1, "  rauc <COMMAND> --help\n", 24) = 24
+1143201 write(1, "\n", 1)               = 1
+1143201 write(1, "List of rauc bundle handling com"..., 39) = 39
+1143201 write(1, "  extract\t\tExtract the bundle co"..., 38) = 38
+1143201 write(1, "  info\t\t\tShow bundle information"..., 33) = 33
+1143201 write(1, "\n", 1)               = 1
+1143201 write(1, "List of rauc target commands:\n", 30) = 30
+1143201 write(1, "  service\t\tStart RAUC service\n", 30) = 30
+1143201 write(1, "  install\t\tInstall a bundle\n", 28) = 28
+1143201 write(1, "  status\t\tShow status\n", 22) = 22
+1143201 write(1, "  mount\t\t\tMount a bundle\n", 25) = 25
+1143201 write(1, "  write-slot\t\tWrite image to slo"..., 62) = 62
+1143201 write(1, "\n", 1)               = 1
+1143201 write(1, "Environment variables:\n", 23) = 23
+1143201 write(1, "  RAUC_KEY_PASSPHRASE Passphrase"..., 79) = 79
+1143201 write(1, "  RAUC_PKCS11_MODULE  Library fi"..., 73) = 73
+1143201 write(1, "  RAUC_PKCS11_PIN     PIN to use"..., 75) = 75
+1143201 exit_group(0)                   = ?
+1143202 <... futex resumed>)            = ?
+1143202 +++ exited with 0 +++
+1143201 +++ exited with 0 +++

@@ -1,0 +1,923 @@
+1142781 execve("/usr/sbin/chroot", ["chroot", "raw_firmware/wago/pfc100_200/roo"..., "/usr/bin/qemu-arm-static", "/bin/busybox"], 0x7ffe594e4e20 /* 17 vars */) = 0
+1142781 brk(NULL)                       = 0x5776b6398000
+1142781 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x708151120000
+1142781 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1142781 fstat(3, {st_mode=S_IFREG|0644, st_size=85347, ...}) = 0
+1142781 mmap(NULL, 85347, PROT_READ, MAP_PRIVATE, 3, 0) = 0x70815110b000
+1142781 close(3)                        = 0
+1142781 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1142781 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+1142781 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+1142781 fstat(3, {st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0
+1142781 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+1142781 mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x708150e00000
+1142781 mmap(0x708150e28000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x708150e28000
+1142781 mmap(0x708150fb0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x708150fb0000
+1142781 mmap(0x708150fff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000) = 0x708150fff000
+1142781 mmap(0x708151005000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x708151005000
+1142781 close(3)                        = 0
+1142781 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x708151108000
+1142781 arch_prctl(ARCH_SET_FS, 0x708151108740) = 0
+1142781 set_tid_address(0x708151108a10) = 1142781
+1142781 set_robust_list(0x708151108a20, 24) = 0
+1142781 rseq(0x708151109060, 0x20, 0, 0x53053053) = 0
+1142781 mprotect(0x708150fff000, 16384, PROT_READ) = 0
+1142781 mprotect(0x5776b5e28000, 4096, PROT_READ) = 0
+1142781 mprotect(0x708151158000, 8192, PROT_READ) = 0
+1142781 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+1142781 munmap(0x70815110b000, 85347)   = 0
+1142781 getrandom("\x13\xdc\x81\x40\xf7\xaa\x0d\x45", 8, GRND_NONBLOCK) = 8
+1142781 brk(NULL)                       = 0x5776b6398000
+1142781 brk(0x5776b63b9000)             = 0x5776b63b9000
+1142781 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1142781 fstat(3, {st_mode=S_IFREG|0644, st_size=14596880, ...}) = 0
+1142781 mmap(NULL, 14596880, PROT_READ, MAP_PRIVATE, 3, 0) = 0x708150000000
+1142781 close(3)                        = 0
+1142781 getcwd("/home/fabiha/industrial-iot-supply-chain", 1024) = 41
+1142781 readlink("/home/fabiha/industrial-iot-supply-chain/raw_firmware", 0x7fff42b50f30, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/home/fabiha/industrial-iot-supply-chain/raw_firmware/wago", 0x7fff42b50f30, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/home/fabiha/industrial-iot-supply-chain/raw_firmware/wago/pfc100_200", 0x7fff42b50f30, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/home/fabiha/industrial-iot-supply-chain/raw_firmware/wago/pfc100_200/rootfs", 0x7fff42b50f30, 1023) = -1 EINVAL (Invalid argument)
+1142781 chroot("raw_firmware/wago/pfc100_200/rootfs") = 0
+1142781 chdir("/")                      = 0
+1142781 execve("/usr/bin/qemu-arm-static", ["/usr/bin/qemu-arm-static", "/bin/busybox"], 0x7fff42b51550 /* 17 vars */) = 0
+1142781 brk(NULL)                       = 0x555556ae8000
+1142781 brk(0x555556ae8e40)             = 0x555556ae8e40
+1142781 arch_prctl(ARCH_SET_FS, 0x555556ae84c0) = 0
+1142781 set_tid_address(0x555556ae8790) = 1142781
+1142781 set_robust_list(0x555556ae87a0, 24) = 0
+1142781 rseq(0x555556ae8de0, 0x20, 0, 0x53053053) = 0
+1142781 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+1142781 readlinkat(AT_FDCWD, "/proc/self/exe", 0x7ffcddefb5d0, 4096) = -1 ENOENT (No such file or directory)
+1142781 getrandom("\x01\x1b\x81\x57\xa3\x0c\x93\x19", 8, GRND_NONBLOCK) = 8
+1142781 brk(NULL)                       = 0x555556ae8e40
+1142781 brk(0x555556b09e40)             = 0x555556b09e40
+1142781 brk(0x555556b0a000)             = 0x555556b0a000
+1142781 mprotect(0x74d0081bb000, 135168, PROT_READ) = 0
+1142781 rt_sigprocmask(SIG_SETMASK, ~[ILL FPE SEGV RTMIN RT_1], [], 8) = 0
+1142781 rt_sigaction(SIGRT_1, {sa_handler=0x74d0080872d0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_RESTART|SA_SIGINFO, sa_restorer=0x74d007ffb200}, NULL, 8) = 0
+1142781 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+1142781 mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x74d007400000
+1142781 mprotect(0x74d007401000, 8388608, PROT_READ|PROT_WRITE) = 0
+1142781 rt_sigprocmask(SIG_BLOCK, ~[], ~[ILL FPE KILL SEGV STOP RTMIN RT_1], 8) = 0
+1142781 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x74d007c00990, parent_tid=0x74d007c00990, exit_signal=0, stack=0x74d007400000, stack_size=0x800200, tls=0x74d007c006c0} => {parent_tid=[1142782]}, 88) = 1142782
+1142781 rt_sigprocmask(SIG_SETMASK, ~[ILL FPE KILL SEGV STOP RTMIN RT_1], NULL, 8) = 0
+1142782 rseq(0x74d007c00fe0, 0x20, 0, 0x53053053 <unfinished ...>
+1142781 rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+1142782 <... rseq resumed>)             = 0
+1142781 <... rt_sigprocmask resumed>NULL, 8) = 0
+1142782 set_robust_list(0x74d007c009a0, 24) = 0
+1142782 rt_sigprocmask(SIG_SETMASK, ~[ILL FPE KILL SEGV STOP RTMIN RT_1], NULL, 8) = 0
+1142782 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x74cfff400000
+1142781 prlimit64(0, RLIMIT_STACK, NULL,  <unfinished ...>
+1142782 munmap(0x74cfff400000, 12582912 <unfinished ...>
+1142781 <... prlimit64 resumed>{rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+1142782 <... munmap resumed>)           = 0
+1142781 uname( <unfinished ...>
+1142782 munmap(0x74d004000000, 54525952 <unfinished ...>
+1142781 <... uname resumed>{sysname="Linux", nodename="fabiha-Precision-3660", ...}) = 0
+1142782 <... munmap resumed>)           = 0
+1142781 openat(AT_FDCWD, "/bin/busybox", O_RDONLY <unfinished ...>
+1142782 mprotect(0x74d000000000, 135168, PROT_READ|PROT_WRITE <unfinished ...>
+1142781 <... openat resumed>)           = 3
+1142782 <... mprotect resumed>)         = 0
+1142781 readlink("/bin", "usr/bin", 1023) = 7
+1142782 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+1142781 readlink("/usr", 0x7ffcddefb980, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/bin", 0x7ffcddefb980, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/bin/busybox", 0x7ffcddefb980, 1023) = -1 EINVAL (Invalid argument)
+1142781 lseek(3, 0, SEEK_SET)           = 0
+1142781 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\2\0(\0\1\0\0\0h\350\1\0004\0\0\0"..., 52) = 52
+1142781 lseek(3, 0, SEEK_SET)           = 0
+1142781 mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x74d00832b000
+1142781 sysinfo({uptime=22036422, loads=[28832, 32448, 21376], totalram=33325223936, freeram=514871296, sharedram=961462272, bufferram=1743732736, totalswap=8589930496, freeswap=7693045760, procs=1415, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+1142781 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x74cff8000000
+1142781 madvise(0x74cff8000000, 134217728, MADV_HUGEPAGE) = 0
+1142781 mprotect(0x74cff8000000, 134213632, PROT_READ|PROT_WRITE|PROT_EXEC) = 0
+1142781 brk(0x555556b32000)             = 0x555556b32000
+1142781 brk(0x555556b53000)             = 0x555556b53000
+1142781 getrandom(NULL, 0, 0)           = 0
+1142781 openat(AT_FDCWD, "/proc/sys/vm/mmap_min_addr", O_RDONLY) = -1 ENOENT (No such file or directory)
+1142781 gettid()                        = 1142781
+1142781 fstat(3, {st_mode=S_IFREG|0755, st_size=494516, ...}) = 0
+1142781 geteuid()                       = 0
+1142781 getegid()                       = 0
+1142781 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\2\0(\0\1\0\0\0h\350\1\0004\0\0\0"..., 1024) = 1024
+1142781 mmap(0x1000, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE|MAP_FIXED_NOREPLACE, -1, 0) = 0x1000
+1142781 mmap(0xffff0000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0xffff0000
+1142781 mprotect(0xffff0000, 4096, PROT_READ) = 0
+1142781 mmap(0x10000, 561152, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x10000
+1142781 mmap(0x10000, 491520, PROT_READ, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x10000
+1142781 mmap(0x97000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x77000) = 0x97000
+1142781 pread64(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1080, 493436) = 1080
+1142781 close(3)                        = 0
+1142781 mmap(0x40000000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40000000
+1142781 mprotect(0x40000000, 4096, PROT_NONE) = 0
+1142781 access("/usr/gnemul/qemu-arm/lib/ld-linux-armhf.so.3", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/ld-linux-armhf.so.3", O_RDONLY) = 3
+1142781 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\200\223\1\0004\0\0\0"..., 1024) = 1024
+1142781 mmap(0x40801000, 307200, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40801000
+1142781 mmap(0x40801000, 61440, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40801000
+1142781 mmap(0x4084b000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4084b000
+1142781 mmap(0x40810000, 167936, PROT_READ, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x40810000
+1142781 mmap(0x40848000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x28000) = 0x40848000
+1142781 pread64(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 880, 174712) = 880
+1142781 close(3)                        = 0
+1142781 mmap(0x4084b000, 69632, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4084b000
+1142781 mmap(0x4084b000, 20480, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4084b000
+1142781 mmap(0x40851000, 45056, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40851000
+1142781 mmap(0x40850000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40850000
+1142781 mprotect(0x40850000, 4096, PROT_READ|PROT_WRITE) = 0
+1142781 close(-1)                       = -1 EBADF (Bad file descriptor)
+1142781 mprotect(0x40850000, 4096, PROT_READ) = 0
+1142781 getrandom("\x84\x3a\x07\x1e\x7c\x07\x4b\x9e\x0e\x12\x98\x98\x27\x7e\x06\x13", 16, 0) = 16
+1142781 getuid()                        = 0
+1142781 geteuid()                       = 0
+1142781 getgid()                        = 0
+1142781 getegid()                       = 0
+1142781 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1142781 rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGQUIT, {sa_handler=0x74d007f16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x74d007ffb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGILL, {sa_handler=0x74d007f16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x74d007ffb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGTRAP, {sa_handler=0x74d007f16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x74d007ffb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_2, {sa_handler=0x74d007f16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x74d007ffb200}, NULL, 8) = 0
+1142781 rt_sigaction(SIGBUS, {sa_handler=0x74d007f16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x74d007ffb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGFPE, {sa_handler=0x74d007f16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x74d007ffb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGKILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGSEGV, {sa_handler=0x74d007f16520, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x74d007ffb200}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGSTOP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+1142781 futex(0x74d008215998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1142781 brk(0x555556b77000)             = 0x555556b77000
+1142781 futex(0x74d008215998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1142781 futex(0x74d008215998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1142781 futex(0x74d008215998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1142782 <... clock_nanosleep resumed>0x74d007c00020) = 0
+1142782 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+1142781 mmap(0x40801000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40801000
+1142781 uname({sysname="Linux", nodename="fabiha-Precision-3660", ...}) = 0
+1142781 futex(0x74d008215998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1142781 futex(0x74d008215998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1142781 access("/usr/gnemul/qemu-arm/etc/ld.so.preload", F_OK) = -1 ENOENT (No such file or directory)
+1142781 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1142781 readlink("/etc", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/etc/ld.so.cache", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/etc/ld.so.cache", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/tls", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/tls/v8l/neon/vfp/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142782 <... clock_nanosleep resumed>0x74d007c00020) = 0
+1142781 openat(AT_FDCWD, "/lib/tls/v8l/neon/vfp/libm.so.6", O_RDONLY|O_CLOEXEC <unfinished ...>
+1142782 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+1142781 <... openat resumed>)           = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/tls/v8l/neon/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/tls", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/tls/v8l/neon/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/tls/v8l/neon/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/tls/v8l/neon", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/tls", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/tls/v8l/vfp/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/tls/v8l/vfp/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/tls/v8l/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/tls", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/tls/v8l/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/tls/v8l/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/tls/v8l", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/tls", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/tls/neon/vfp/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/tls/neon/vfp/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/tls/neon/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/tls", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/tls/neon/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/tls/neon/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/tls/neon", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/tls", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/tls/vfp/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/tls/vfp/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/tls/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/tls", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/tls/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/tls", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/v8l", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/v8l/neon/vfp/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/v8l/neon/vfp/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/v8l/neon/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/v8l", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/v8l/neon/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/v8l/neon/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/v8l/neon", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/v8l", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/v8l/vfp/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/v8l/vfp/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/v8l/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/v8l", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/v8l/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/v8l/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/v8l", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/neon", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/neon/vfp/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/neon/vfp/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/neon/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/neon", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/neon/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/neon/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/neon", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/vfp", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/lib/vfp/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/vfp/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 statx(AT_FDCWD, "/lib/vfp", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_BASIC_STATS, 0x7ffcddefbaf0) = -1 ENOENT (No such file or directory)
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/libm.so.6", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 access("/usr/gnemul/qemu-arm/lib/libm.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+1142781 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1142781 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=279948, ...}) = 0
+1142781 mmap(0x40851000, 413696, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40851000
+1142781 mmap(0x40860000, 348160, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x40860000
+1142781 mmap(0x40851000, 61440, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40851000
+1142781 mmap(0x408b5000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x408b5000
+1142781 mprotect(0x408a4000, 61440, PROT_NONE) = 0
+1142781 mmap(0x408b3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x43000) = 0x408b3000
+1142781 close(3)                        = 0
+1142781 futex(0x74d008215998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/libresolv.so.2", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 access("/usr/gnemul/qemu-arm/lib/libresolv.so.2", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+1142781 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1142781 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=50876, ...}) = 0
+1142781 mmap(0x408b5000, 192512, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x408b5000
+1142781 mmap(0x408c0000, 126976, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x408c0000
+1142781 mmap(0x408b5000, 45056, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x408b5000
+1142781 mmap(0x408df000, 20480, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x408df000
+1142781 mprotect(0x408cc000, 61440, PROT_NONE) = 0
+1142781 mmap(0x408db000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x408db000
+1142781 mmap(0x408dd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x408dd000
+1142781 close(3)                        = 0
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/libtirpc.so.3", "libtirpc.so.3.0.0", 1023) = 17
+1142781 readlink("/usr/lib/libtirpc.so.3.0.0", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 access("/usr/gnemul/qemu-arm/lib/libtirpc.so.3", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/libtirpc.so.3", O_RDONLY|O_CLOEXEC) = 3
+1142781 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 512) = 512
+1142781 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=125620, ...}) = 0
+1142781 mmap(0x408df000, 258048, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x408df000
+1142781 mmap(0x408e0000, 192512, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x408e0000
+1142781 mmap(0x408df000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x408df000
+1142781 mmap(0x4090f000, 61440, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4090f000
+1142781 mprotect(0x408fe000, 61440, PROT_NONE) = 0
+1142781 mmap(0x4090d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x4090d000
+1142781 close(3)                        = 0
+1142781 readlink("/lib", "usr/lib", 1023) = 7
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/libc.so.6", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 access("/usr/gnemul/qemu-arm/lib/libc.so.6", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1142781 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0,\333\1\0004\0\0\0"..., 512) = 512
+1142781 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=1434296, ...}) = 0
+1142781 mmap(0x4090f000, 1601536, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x4090f000
+1142781 mmap(0x40910000, 1536000, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x40910000
+1142781 mmap(0x4090f000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x4090f000
+1142781 mmap(0x40a87000, 61440, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x40a87000
+1142781 mprotect(0x40a6a000, 65536, PROT_NONE) = 0
+1142781 mmap(0x40a7a000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15a000) = 0x40a7a000
+1142781 mmap(0x40a7d000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40a7d000
+1142781 close(3)                        = 0
+1142781 mmap(0x40803000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40803000
+1142781 gettid()                        = 1142781
+1142782 <... clock_nanosleep resumed>0x74d007c00020) = 0
+1142782 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+1142781 mprotect(0x40a7a000, 8192, PROT_READ) = 0
+1142781 mprotect(0x4090d000, 4096, PROT_READ) = 0
+1142781 mprotect(0x408db000, 4096, PROT_READ) = 0
+1142781 mprotect(0x408b3000, 4096, PROT_READ) = 0
+1142781 mprotect(0x97000, 4096, PROT_READ) = 0
+1142781 brk(0x555556b98000)             = 0x555556b98000
+1142781 mprotect(0x40848000, 8192, PROT_READ) = 0
+1142781 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+1142781 getrandom("\x22\xa8\x2f\x69", 4, GRND_NONBLOCK) = 4
+1142781 futex(0x74d008215998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1142781 futex(0x74d008215998, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1142781 mmap(0x99000, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x99000
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale/locale-archive", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 access("/usr/gnemul/qemu-arm/usr/lib/locale/locale-archive", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1142781 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3376400, ...}) = 0
+1142781 mmap(0x40a87000, 2097152, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40a87000
+1142781 mmap(0x40a87000, 2097152, PROT_READ, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x40a87000
+1142781 close(3)                        = 0
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/share", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/share/locale", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/share/locale/locale.alias", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 access("/usr/gnemul/qemu-arm/usr/share/locale/locale.alias", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+1142781 statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_BASIC_STATS, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2998, ...}) = 0
+1142781 read(3, "# Locale name alias data base.\n#"..., 4096) = 2998
+1142781 read(3, "", 4096)               = 0
+1142781 close(3)                        = 0
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale/en_US.UTF-8", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale/en_US.utf8", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale/en_US", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/usr/lib/locale/en_US/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/usr/lib/locale/en_US/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale/en.UTF-8", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/usr/lib/locale/en.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale/en.utf8", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/usr/lib/locale/en.utf8/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/usr/lib/locale/en.utf8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 readlink("/usr", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale", 0x7ffcddefa480, 1023) = -1 EINVAL (Invalid argument)
+1142781 readlink("/usr/lib/locale/en", 0x7ffcddefa480, 1023) = -1 ENOENT (No such file or directory)
+1142781 access("/usr/gnemul/qemu-arm/usr/lib/locale/en/LC_IDENTIFICATION", F_OK) = -1 ENOENT (No such file or directory)
+1142781 openat(AT_FDCWD, "/usr/lib/locale/en/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1142781 getuid()                        = 0
+1142781 ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+1142781 dup2(1, 2)                      = 2
+1142781 write(2, "BusyBox v1.37.0 ()", 18) = 18
+1142781 write(2, " multi-call binary.\n", 20) = 20
+1142781 write(2, "BusyBox is copyrighted by many a"..., 496) = 496
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "[", 1)                = 1
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "[[", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ar", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "arp", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "arping", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ascii", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "awk", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "base32", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "base64", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "basename", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "beep", 4)             = 4
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "blkdiscard", 10)      = 10
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "blockdev", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "brctl", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "bunzip2", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "bzcat", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "bzip2", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "cal", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "cat", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "chgrp", 5)            = 5
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "chmod", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "chown", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "chroot", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "clear", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "cmp", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "cpio", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "crc32", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "crond", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "crontab", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "cut", 3)              = 3
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "date", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "dd", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "devmem", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "df", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "diff", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "dirname", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "dmesg", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "dnsdomainname", 13)   = 13
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "dumpkmap", 8)         = 8
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "echo", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "egrep", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "env", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "expr", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "factor", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "fallocate", 9)        = 9
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "false", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "fbsplash", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "fdisk", 5)            = 5
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "fgconsole", 9)        = 9
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "fgrep", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "flock", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "free", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "fsck", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "fsck.minix", 10)      = 10
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "fsfreeze", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "fsync", 5)            = 5
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "ftpget", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ftpput", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "fuser", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "getfattr", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "getty", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "grep", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "halt", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "head", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "hexdump", 7)          = 7
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "hostname", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "hwclock", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "i2cdetect", 9)        = 9
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "i2cdump", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "i2cget", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "i2cset", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "i2ctransfer", 11)     = 11
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "id", 2)               = 2
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "ifconfig", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "inetd", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "init", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ionice", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "kill", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "killall", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "killall5", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "link", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "linux32", 7)          = 7
+1142781 write(2, ",\n", 2 <unfinished ...>
+1142782 <... clock_nanosleep resumed>0x74d007c00020) = 0
+1142781 <... write resumed>)            = 2
+1142782 clock_nanosleep(CLOCK_REALTIME, 0, {tv_sec=0, tv_nsec=10000000},  <unfinished ...>
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "linux64", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ln", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "loadfont", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "loadkmap", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "logger", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "logread", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ls", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "lspci", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "lsscsi", 6)           = 6
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "lsusb", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "lzcat", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "lzma", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "lzop", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "lzopcat", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "makemime", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "man", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "md5sum", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "mesg", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "mkdir", 5)            = 5
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "mkdosfs", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "mkfifo", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "mknod", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "mkpasswd", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "mktemp", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "mv", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "nc", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "netstat", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "nice", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "nl", 2)               = 2
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "nohup", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "nproc", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "nsenter", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "nslookup", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ntpd", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "od", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "partprobe", 9)        = 9
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "paste", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "patch", 5)            = 5
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "pidof", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ping", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ping6", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "popmaildir", 10)      = 10
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "poweroff", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "printenv", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "printf", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "pwd", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "rdev", 4)             = 4
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "readlink", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "realpath", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "reboot", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "reformime", 9)        = 9
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "renice", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "reset", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "resize", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "rev", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "rm", 2)               = 2
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "rmdir", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "route", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "run-parts", 9)        = 9
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "scriptreplay", 12)    = 12
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "seedrng", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "seq", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "setconsole", 10)      = 10
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "setfont", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "setkeycodes", 11)     = 11
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "setpriv", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "sha256sum", 9)        = 9
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "sha3sum", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "sha512sum", 9)        = 9
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "showkey", 7)          = 7
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "shred", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "shuf", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "sleep", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "smemcap", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "sort", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ssl_client", 10)      = 10
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "start-stop-daemon", 17) = 17
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "stat", 4)             = 4
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "stty", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "sum", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "svc", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "sync", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "sysctl", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "tail", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "tee", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "test", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "time", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "timeout", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "touch", 5)            = 5
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "tr", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "traceroute", 10)      = 10
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "traceroute6", 11)     = 11
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "tree", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "true", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "truncate", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ts", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "tsort", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "tty", 3)              = 3
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "tunctl", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "ubirename", 9)        = 9
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "udhcpc", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "udhcpc6", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "uevent", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "uname", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "uncompress", 10)      = 10
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "uniq", 4)             = 4
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "unix2dos", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "unlzop", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "unshare", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "unxz", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "uptime", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "users", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "usleep", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "uudecode", 8)         = 8
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "uuencode", 8)         = 8
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "vi", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "volname", 7)          = 7
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "w", 1)                = 1
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "wall", 4)             = 4
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "watch", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "wc", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "which", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "who", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "whoami", 6)           = 6
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "xargs", 5)            = 5
+1142781 write(2, ",\n", 2)              = 2
+1142781 write(2, "\t", 1)               = 1
+1142781 write(2, "xxd", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "xz", 2)               = 2
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "xzcat", 5)            = 5
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "yes", 3)              = 3
+1142781 write(2, ", ", 2)               = 2
+1142781 write(2, "zcat", 4)             = 4
+1142781 write(2, "\n", 1)               = 1
+1142781 exit_group(0)                   = ?
+1142782 <... clock_nanosleep resumed> <unfinished ...>) = ?
+1142782 +++ exited with 0 +++
+1142781 +++ exited with 0 +++

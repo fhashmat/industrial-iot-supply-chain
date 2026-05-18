@@ -1,0 +1,13 @@
+raw_firmware/wago/pfc100_200/rootfs/usr/sbin/snmpd
+raw_firmware/wago/pfc100_200/rootfs/usr/bin/netconfd
+raw_firmware/wago/pfc100_200/rootfs/usr/bin/logforward
+raw_firmware/wago/pfc100_200/rootfs/usr/bin/rauc
+raw_firmware/wago/pfc100_200/rootfs/usr/bin/omsd
+raw_firmware/wago/pfc100_200/rootfs/usr/bin/iocheckd
+raw_firmware/wago/pfc100_200/rootfs/usr/bin/ledserverd
+raw_firmware/wago/pfc100_200/rootfs/usr/bin/progexecd
+raw_firmware/wago/pfc100_200/rootfs/etc/rauc
+raw_firmware/wago/pfc100_200/rootfs/etc/pam.d/sshd
+raw_firmware/wago/pfc100_200/rootfs/etc/init.d/netconfd
+raw_firmware/wago/pfc100_200/rootfs/etc/init.d/logforward
+raw_firmware/wago/pfc100_200/rootfs/etc/init.d/rauc

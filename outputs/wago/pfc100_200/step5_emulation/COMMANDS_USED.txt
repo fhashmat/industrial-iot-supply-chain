@@ -1,0 +1,120 @@
+ 1622  cd ~/industrial-iot-supply-chain
+ 1623  ls -lh raw_firmware/wago/pfc100_200
+ 1624  pwd
+ 1625  ls
+ 1626  find . -maxdepth 2 -type d -name "raw*"
+ 1627  find . -maxdepth 4 -type d -name "pfc*"
+ 1628  find . -maxdepth 5 -type d -name "rootfs"
+ 1629  hostname _I
+ 1630  hostname -I
+ 1631  ls
+ 1632  gnome-screenshot -a
+ 1633  ip addr show
+ 1634  ip a
+ 1635  cp /usr/share/edk2-ovmf/x64/OVMF_VARS.fd ./OVMF_VARS.fd
+ 1636  sudo apt-get update
+ 1637  sudo apt-get install -y qemu-system-x86 ovmf
+ 1638  sudo find /usr/share -type f -iname 'OVMF*_CODE*.fd' -o -iname 'OVMF*_VARS*.fd' | sort
+ 1639  mkdir -p ~/lab2 && cd ~/lab2
+ 1640  cp /usr/share/OVMF/OVMF_VARS_4M.fd ./OVMF_VARS.fd
+ 1641  qemu-system-x86_64 -no-reboot -boot order=c,menu=on,splash-time=65535,strict=on  -machine type=q35,smm=on,accel=kvm  -global driver=cfi.pflash01,property=secure,value=on  -global ICH9-LPC.disable_s3=1  -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.secboot.fd,readonly=on  -drive if=pflash,format=raw,unit=1,file=./OVMF_VARS.fd  -m 4096 -smp 2 -cpu host
+ 1642  sudo apt-get install -y sbctl
+ 1643  sudo apt-get update
+ 1644  sudo apt-get install -y golang-go git
+ 1645  git clone https://github.com/Foxboron/sbctl.git
+ 1646  cd sbctl
+ 1647  make
+ 1648  sudo apt-get install -y asciidoc
+ 1649  make
+ 1650  sudo apt-get install -y libpcsclite-dev pkg-config
+ 1651  make sbctl
+ 1652  sudo install -Dm755 sbctl /usr/local/bin/sbctl
+ 1653  sbctl --version
+ 1654  sbctl status
+ 1655  gnome-screenshot -a
+ 1656  cd
+ 1657  wget https://releases.ubuntu.com/22.04/ubuntu-22.04.5-desktop-amd64.iso
+ 1658  qemu-system-x86_64 -no-reboot -boot order=d,menu=on,splash-time=65535,strict=on  -machine type=q35,smm=on,accel=kvm  -global driver=cfi.pflash01,property=secure,value=on  -global ICH9-LPC.disable_s3=1  -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.secboot.fd,readonly=on  -drive if=pflash,format=raw,unit=1,file=./OVMF_VARS.fd  -m 4096 -smp 2 -cpu host  -cdrom ~/Downloads/ubuntu-22.04.5-desktop-amd64.iso  -drive file=ubuntu.img,format=qcow2,if=virtio
+ 1659  cd ~/lab2
+ 1660  cp /usr/share/OVMF/OVMF_VARS_4M.fd ./OVMF_VARS.fd
+ 1661  qemu-system-x86_64 -no-reboot -boot order=d,menu=on,splash-time=65535,strict=on  -machine type=q35,smm=on,accel=kvm  -global driver=cfi.pflash01,property=secure,value=on  -global ICH9-LPC.disable_s3=1  -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.secboot.fd,readonly=on  -drive if=pflash,format=raw,unit=1,file=./OVMF_VARS.fd  -m 4096 -smp 2 -cpu host  -cdrom ~/ubuntu-22.04.5-desktop-amd64.iso  -drive file=ubuntu.img,format=qcow2,if=virtio
+ 1662  qemu-img create -f qcow2 ubuntu.img 20G
+ 1663  qemu-system-x86_64 -no-reboot -boot order=d,menu=on,splash-time=65535,strict=on  -machine type=q35,smm=on,accel=kvm  -global driver=cfi.pflash01,property=secure,value=on  -global ICH9-LPC.disable_s3=1  -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.secboot.fd,readonly=on  -drive if=pflash,format=raw,unit=1,file=./OVMF_VARS.fd  -m 4096 -smp 2 -cpu host  -cdrom ~/ubuntu-22.04.5-desktop-amd64.iso  -drive file=ubuntu.img,format=qcow2,if=virtio
+ 1664  qemu-system-x86_64 -no-reboot -boot order=c,menu=on,splash-time=65535,strict=on  -machine type=q35,smm=on,accel=kvm  -global driver=cfi.pflash01,property=secure,value=on  -global ICH9-LPC.disable_s3=1  -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.secboot.fd,readonly=on  -drive if=pflash,format=raw,unit=1,file=./OVMF_VARS.fd  -m 4096 -smp 2 -cpu host  -drive file=ubuntu.img,format=qcow2,if=virtio
+ 1665  gnome-screenshot -a
+ 1666  cd ~/lab2
+ 1667  qemu-system-x86_64 -no-reboot -boot order=c,menu=on,splash-time=65535,strict=on  -machine type=q35,smm=on,accel=kvm  -global driver=cfi.pflash01,property=secure,value=on  -global ICH9-LPC.disable_s3=1  -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.secboot.fd,readonly=on  -drive if=pflash,format=raw,unit=1,file=./OVMF_VARS.fd  -m 4096 -smp 2 -cpu host
+ 1668  sudo sbctl create-keys
+ 1669  sudo sbctl enroll-keys --migrate
+ 1670  sudo sbctl enroll-keys
+ 1671  cd ~/lab2
+ 1672  qemu-system-x86_64 -no-reboot -boot order=c,menu=on,splash-time=65535,strict=on  -machine type=q35,smm=on,accel=kvm  -global driver=cfi.pflash01,property=secure,value=on  -global ICH9-LPC.disable_s3=1  -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.secboot.fd,readonly=on  -drive if=pflash,format=raw,unit=1,file=./OVMF_VARS.fd  -m 4096 -smp 2 -cpu host
+ 1673  sbctl status
+ 1674  qemu-system-x86_64 -no-reboot -boot order=c,menu=on,splash-time=65535,strict=on  -machine type=q35,smm=on,accel=kvm  -global driver=cfi.pflash01,property=secure,value=on  -global ICH9-LPC.disable_s3=1  -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.secboot.fd,readonly=on  -drive if=pflash,format=raw,unit=1,file=./OVMF_VARS.fd  -m 4096 -smp 2 -cpu host
+ 1675  sbctl status
+ 1676  qemu-system-x86_64 -no-reboot -boot order=c,menu=on,splash-time=65535,strict=on  -machine type=q35,smm=on,accel=kvm  -global driver=cfi.pflash01,property=secure,value=on  -global ICH9-LPC.disable_s3=1  -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.secboot.fd,readonly=on  -drive if=pflash,format=raw,unit=1,file=./OVMF_VARS.fd  -m 4096 -smp 2 -cpu host
+ 1677  sbctl status
+ 1678  rm OVMF_VARS.fd
+ 1679  qemu-system-x86_64 -bios /usr/share/OVMF/OVMF_CODE_4M.secboot.fd
+ 1680  cp /usr/share/OVMF/OVMF_VARS_4M.fd ./OVMF_VARS.fd
+ 1681  qemu-system-x86_64 -no-reboot -boot order=c,menu=on,splash-time=65535,strict=on  -machine type=q35,smm=on,accel=kvm  -global driver=cfi.pflash01,property=secure,value=on  -global ICH9-LPC.disable_s3=1  -drive if=pflash,format=raw,unit=0,file=/usr/share/OVMF/OVMF_CODE_4M.secboot.fd,readonly=on  -drive if=pflash,format=raw,unit=1,file=./OVMF_VARS.fd  -m 4096 -smp 2 -cpu host
+ 1682  gnome-screenshot -a
+ 1683  cd
+ 1684  sudo apt-get update
+ 1685  sudo apt-get install qemu-system-arm qemu-utils
+ 1686  qemu-system-arm --version
+ 1687  cd ~/gotee-example
+ 1688  qemu-system-arm   -M usbarmory   -kernel bin/trusted_os_usbarmory.imx   -nographic   -netdev user,id=net0,hostfwd=tcp::2222-:22   -device usb-net,netdev=net0
+ 1689  sudo imx_usb -v bin/trusted_os_usbarmory.imx
+ 1690  cd
+ 1691  sudo imx_usb -v bin/trusted_os_usbarmory.imx
+ 1692  lsusb | grep -i freescale
+ 1693  cd ~/gotee-example
+ 1694  sudo imx_usb -v ./bin/trusted_os_usbarmory.imx
+ 1695  sudo apt update
+ 1696  sudo apt install imx-usb-loader
+ 1697  which imx_usb_loader
+ 1698  sudo imx_usb -v -c mx6ull ./bin/trusted_os_usbarmory.imx
+ 1699  sudo apt install uuu
+ 1700  uuu -V
+ 1701  lsusb | grep 15a2:0080
+ 1702  sudo uuu -b spl ./bin/trusted_os_usbarmory.imx
+ 1703  dmesg | tail -n 50
+ 1704  sudo dmesg | tail -n 50
+ 1705  lsusb
+ 1706  cd
+ 1707  lsusb
+ 1708  cd ~/industrial-iot-supply-chain
+ 1709  export ROOTFS=raw_firmware/wago/pfc100_200/rootfs
+ 1710  export OUT=outputs/wago/pfc100_200/step5_emulation
+ 1711  mkdir -p "$OUT"
+ 1712  ls -lh "$OUT" | tee "$OUT/step5_output_files.txt"
+ 1713  grep -Ei "http|web|php|cgi|ssh|telnet|modbus|snmp|mqtt|rauc|update|firmware" "$OUT/interface_binary_candidates.txt" | tee "$OUT/important_interface_candidates.txt"
+ 1714  grep -RniE "http|web|php|cgi|ssh|telnet|modbus|snmp|mqtt|rauc|update|firmware|ledserverd|netconfd|omsd|progexecd|logforward|iocheckd" "$ROOTFS/etc" 2>/dev/null | tee "$OUT/service_references.txt"
+ 1715  find "$ROOTFS" \( -name "rauc" -o -name "ledserverd" -o -name "netconfd" -o -name "omsd" -o -name "progexecd" -o -name "logforward" -o -name "iocheckd" -o -name "sshd" -o -name "snmpd" \) | tee "$OUT/key_binary_paths.txt"
+ 1716  sudo chroot "$ROOTFS" /usr/bin/qemu-arm-static /bin/sh -c 'for b in /usr/bin/rauc /usr/bin/ledserverd /usr/bin/netconfd /usr/bin/omsd /usr/bin/progexecd /usr/bin/logforward /usr/bin/iocheckd; do echo "===== $b ====="; if [ -x "$b" ]; then ldd "$b"; else echo "not found or not executable"; fi; done' | tee "$OUT/key_binary_ldd.txt"
+ 1717  sudo chroot "$ROOTFS" /usr/bin/qemu-arm-static /bin/sh -c 'for b in /usr/bin/rauc /usr/bin/ledserverd /usr/bin/netconfd /usr/bin/omsd /usr/bin/progexecd /usr/bin/logforward /usr/bin/iocheckd; do echo "===== $b --help ====="; if [ -x "$b" ]; then timeout 5 "$b" --help 2>&1 || true; else echo "not found or not executable"; fi; done' | tee "$OUT/key_binary_help_output.txt"
+ 1718  sudo strace -f -o "$OUT/strace_rauc_help.log" chroot "$ROOTFS" /usr/bin/qemu-arm-static /usr/bin/rauc --help
+ 1719  sudo strace -f -o "$OUT/strace_ledserverd_help.log" chroot "$ROOTFS" /usr/bin/qemu-arm-static /usr/bin/ledserverd --help || true
+ 1720  sudo strace -f -o "$OUT/strace_netconfd_help.log" chroot "$ROOTFS" /usr/bin/qemu-arm-static /usr/bin/netconfd --help || true
+ 1721  cd ~/industrial-iot-supply-chain
+ 1722  export ROOTFS=raw_firmware/wago/pfc100_200/rootfs
+ 1723  export OUT=outputs/wago/pfc100_200/step5_emulation
+ 1724  cat > "$OUT/COMMANDS_USED.md" <<'EOF'
+# Step 5 Emulation Commands
+
+## Paths
+
+```bash
+cd ~/industrial-iot-supply-chain
+export ROOTFS=raw_firmware/wago/pfc100_200/rootfs
+export OUT=outputs/wago/pfc100_200/step5_emulation
+mkdir -p "$OUT"
+
+
+
+EOF
+
+ 1725  cd ~/industrial-iot-supply-chain
+ 1726  export OUT=outputs/wago/pfc100_200/step5_emulation
+ 1727  history | tail -120 > "$OUT/COMMANDS_USED.txt"

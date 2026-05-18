@@ -1,0 +1,10 @@
+total 656K
+-rw-rw-r-- 1 fabiha fabiha  315 May 18 13:33 architecture.txt
+-rw-rw-r-- 1 fabiha fabiha 545K May 18 13:35 interface_binary_candidates.txt
+-rw-rw-r-- 1 fabiha fabiha  344 May 18 13:33 os_release.txt
+-rw-rw-r-- 1 fabiha fabiha  688 May 18 13:34 qemu_user_smoke_test.txt
+-rw-r--r-- 1 root   root    61K May 18 13:41 qemu_user_strace_busybox.log
+-rw-rw-r-- 1 fabiha fabiha  22K May 18 13:35 startup_service_candidates.txt
+-rw-rw-r-- 1 fabiha fabiha    0 May 18 13:46 step5_output_files.txt
+-rw-rw-r-- 1 fabiha fabiha 2.5K May 18 13:41 usr_bin_list.txt
+-rw-rw-r-- 1 fabiha fabiha 2.5K May 18 13:40 usr_sbin_list.txt
