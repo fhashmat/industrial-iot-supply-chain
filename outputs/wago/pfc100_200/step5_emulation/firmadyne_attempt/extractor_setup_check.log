@@ -1,0 +1,18 @@
+Firmadyne extractor setup check
+binwalk:
+/usr/bin/binwalk
+
+Binwalk v2.3.3
+Craig Heffner, ReFirmLabs
+https://github.com/ReFirmLabs/binwalk
+
+
+python-magic:
+python-magic works
+
+jefferson:
+usage: jefferson [-h] [-v] [-f] [-d DEST] filesystem
+
+positional arguments:
+  filesystem            path to filesystem
+

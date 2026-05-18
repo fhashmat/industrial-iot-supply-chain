@@ -1,0 +1,6 @@
+Querying database for architecture... armel
+Running firmware 1: terminating after 60 secs...
+qemu-system-arm: terminating on signal 2 from pid 1156928 (timeout)
+Inferring network...
+Interfaces: []
+Done!

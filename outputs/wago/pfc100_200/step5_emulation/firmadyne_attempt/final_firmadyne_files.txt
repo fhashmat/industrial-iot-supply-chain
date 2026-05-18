@@ -1,0 +1,12 @@
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/run.log 4 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/database_schema.log 4 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/inferNetwork.log 4 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/getArch.log 4 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/extractor_setup_check.log 4 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/makeImage.log 4 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/download.log 56 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/final_firmadyne_files.txt 0 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/extraction.log 4 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/scratch_1/qemu.initial.serial.log 20 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/scratch_1/run.sh 4 KB
+/home/fabiha/industrial-iot-supply-chain/outputs/wago/pfc100_200/step5_emulation/firmadyne_attempt/FIRMADYNE_SUMMARY.md 4 KB

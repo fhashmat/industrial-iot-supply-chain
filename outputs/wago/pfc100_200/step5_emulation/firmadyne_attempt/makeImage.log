@@ -1,0 +1,53 @@
+Querying database for architecture... armel
+----Running----
+----Creating working directory /home/fabiha/firmadyne//scratch//1/----
+----The size of root filesystem '/home/fabiha/firmadyne//images//1.tar.gz' is 192317440-----
+----Creating QEMU Image /home/fabiha/firmadyne//scratch//1//image.raw with size 268435456----
+Formatting '/home/fabiha/firmadyne//scratch//1//image.raw', fmt=raw size=268435456
+----Creating Partition Table----
+
+Welcome to fdisk (util-linux 2.39.3).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+Device does not contain a recognized partition table.
+Created a new DOS (MBR) disklabel with disk identifier 0x1f3952ca.
+
+Command (m for help): Created a new DOS (MBR) disklabel with disk identifier 0xaef3aaa0.
+
+Command (m for help): Partition type
+   p   primary (0 primary, 0 extended, 4 free)
+   e   extended (container for logical partitions)
+Select (default p): Partition number (1-4, default 1): First sector (2048-524287, default 2048): Last sector, +/-sectors or +/-size{K,M,G,T,P} (2048-524287, default 524287): 
+Created a new partition 1 of type 'Linux' and of size 255 MiB.
+
+Command (m for help): The partition table has been altered.
+Syncing disks.
+
+----Mounting QEMU Image----
+----Device mapper created at /dev/mapper/loop22p1----
+----Creating Filesystem----
+mke2fs 1.47.0 (5-Feb-2023)
+Discarding device blocks:     0/65280           done                            
+Creating filesystem with 65280 4k blocks and 65280 inodes
+Filesystem UUID: c48fedc2-7149-4adc-b4ec-ca802ca412a7
+Superblock backups stored on blocks: 
+	32768
+
+Allocating group tables: 0/2   done                            
+Writing inode tables: 0/2   done                            
+Writing superblocks and filesystem accounting information: 0/2   done
+
+----Making QEMU Image Mountpoint at /home/fabiha/firmadyne//scratch//1//image/----
+----Mounting QEMU Image Partition 1----
+----Extracting Filesystem Tarball to Mountpoint----
+----Creating FIRMADYNE Directories----
+----Patching Filesystem (chroot)----
+Backing up /etc/passwd to /etc/passwd.bak
+Backing up /etc/shadow to /etc/shadow.bak
+Fixing shell for root user
+Unlocking and blanking default root password. (*May not work since some routers reset the password back to default when booting)
+Warning: Recreating device nodes!
+----Setting up FIRMADYNE----
+----Unmounting QEMU Image----
+----Deleting device mapper----
