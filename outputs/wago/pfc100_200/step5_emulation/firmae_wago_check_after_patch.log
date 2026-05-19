@@ -1,0 +1,9 @@
+[*] /home/fabiha/industrial-iot-supply-chain/raw_firmware/wago/pfc100_200/Firmware_PFC100_PFC200_040901_31.zip emulation start!!!
+[*] Extract done!!!
+[+] get architecture done!!!
+[+] Start emulation!!!
+
+[IID] 1
+[[33mMODE[0m] check
+mke2fs 1.47.0 (5-Feb-2023)
+/dev/loop22p1 is mounted; will not make a filesystem here!

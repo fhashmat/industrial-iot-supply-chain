@@ -1,0 +1,5 @@
+FirmAE filesystem layout patch
+
+lrwxrwxrwx 1 root root 7 May 18 23:15 /home/fabiha/FirmAE/scratch/1/image/bin -> usr/bin
+lrwxrwxrwx 1 root root 8 May 18 23:15 /home/fabiha/FirmAE/scratch/1/image/sbin -> usr/sbin
+lrwxrwxrwx 1 root root 7 May 18 23:15 /home/fabiha/FirmAE/scratch/1/image/lib -> usr/lib

@@ -1,0 +1,4 @@
++ sudo service postgresql restart
++ echo 'Waiting for DB to start...'
+Waiting for DB to start...
++ sleep 5
